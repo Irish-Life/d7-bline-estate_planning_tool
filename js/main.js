@@ -12,6 +12,8 @@ var totalBeingInherited=0;
 var beneficiaryAssets=0;
 var addingNewUser=false;
 var form='';
+var beneficiaryArfValue=0;
+var beneficiaryNonArfValue=0;
 //var form = 0;
 
 step1Complete=false;
@@ -151,11 +153,28 @@ function calculateTaxableInheritance(
    return Math.round(taxableInheritance);
 }
 
+function storeARF(arfValue) {
+	beneficiaryArfValue = arfValue;
+}
+
+function storeNonARF(nonArfValue) {
+	beneficiaryNonArfValue = nonArfValue;
+}
+
 //after calculating the taxable inheritance calculate the tax liability
 function calculateTaxLiability(age,taxableInheritance,postRetireInheritedValue,isChild) {
-    "use strict";
+	"use strict";
+	var ARF = 0;
+	ARF = (postRetireInheritedValue * 0.3);
+	storeARF(ARF);
+
+	var nonARF = 0;
+	nonARF = (taxableInheritance - postRetireInheritedValue) * 0.33;
+	storeNonARF(nonARF);
+
 	var tax=0;
 	if(isChild) {
+	
     tax = (age >= 21
         ? ((taxableInheritance - postRetireInheritedValue) * 0.33) + (postRetireInheritedValue * 0.3)
         : taxableInheritance * 0.33);

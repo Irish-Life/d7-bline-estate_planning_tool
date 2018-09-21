@@ -50,7 +50,7 @@ function estate_planning_tool_contents() {
 
 
 	
-	<div class="container-fluid" id="estate-planner">
+	<div class="container-fluid" id="estate-planner" style="background-color:white">
 		<!--================================ START SCREEN SECTION =============================-->
 
 
@@ -548,7 +548,7 @@ function estate_planning_tool_contents() {
 			<table id="taxOnArf" style="margin-left:0px; width:100%;">
 			<thead>
 				<tr>
-				<th colspan="3" text-align: center; background-color: #A39B88; color: #fff;>Tax on ARF / AMRF value inherited by your children over 21 / beneficiaries</th>
+				<th colspan="3" text-align: center; background-color: #A39B88; color: #fff;>Tax on ARF / AMRF value inherited by your children over 21</th>
 				</tr>
 				<tr>
 					<th>Value of ARF / AMRF</th>
