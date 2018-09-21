@@ -12,8 +12,8 @@ var totalBeingInherited=0;
 var beneficiaryAssets=0;
 var addingNewUser=false;
 var form='';
-var beneficiaryArfValue=0;
-var beneficiaryNonArfValue=0;
+window.beneficiaryArfValue=0;
+window.beneficiaryNonArfValue=0;
 //var form = 0;
 
 step1Complete=false;
@@ -154,11 +154,11 @@ function calculateTaxableInheritance(
 }
 
 function storeARF(arfValue) {
-	beneficiaryArfValue = arfValue;
+	window.beneficiaryArfValue = arfValue;
 }
 
 function storeNonARF(nonArfValue) {
-	beneficiaryNonArfValue = nonArfValue;
+	window.beneficiaryNonArfValue = nonArfValue;
 }
 
 //after calculating the taxable inheritance calculate the tax liability
