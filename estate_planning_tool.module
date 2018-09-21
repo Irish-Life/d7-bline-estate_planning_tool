@@ -548,14 +548,16 @@ function estate_planning_tool_contents() {
 			<table id="taxOnArf" style="margin-left:0px; width:100%;">
 			<thead>
 				<tr>
-				<th colspan="3" text-align: center; background-color: #A39B88; color: #fff;>Tax on ARF / AMRF value inherited by your children over 21</th>
+				<th colspan="4" text-align: center; background-color: #A39B88; color: #fff;>Tax on ARF / AMRF value inherited by your children over 21</th>
 				</tr>
 				<tr>
+					<th>Name of beneficiary</th>
 					<th>Value of ARF / AMRF</th>
 					<th>Tax Rate</th>
 					<th>Tax liability</th>
 				</tr>
 				<tr>	
+					<td><span class="beneficiary-name"></td>
 					<td><span class="reportPensionsPost num"></span></td>
 					<td>30%<span class="num" style="display:none;">.3</span></td>
 					<td id="result"></td>
