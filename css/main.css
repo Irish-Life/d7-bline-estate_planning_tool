@@ -526,7 +526,38 @@ table, th, td {
 	border-radius: 0px!important;;
 }
 
+/* JB styles - 25/09/2018 */
 
+.stat-box {
+	border: 1px solid black;
+	width: 25%;
+	padding: 5px 0px 5px 5px;
+	margin-right: 25px;
+	font-size: 14px;
+}
+
+
+.report-assumptions > li {
+	font-size: 12px;
+}
+
+.report-table {
+	font-size: 12px;
+}
+
+.report-table__list {
+	font-size: 12px;
+}
+
+.report-subtext {
+	font-size: 18px;
+}
+
+@media print {
+
+}
+
+/* End JB styles */
 .estate-value-liability-box {
 	text-align: center;
 	display: inline;

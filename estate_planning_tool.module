@@ -506,7 +506,7 @@ function estate_planning_tool_contents() {
 		<div id="totals">
 		<div style="display:flex; padding 5px; margin-left: 20px;">
 		<p style="padding: 5px;">
-		<div style="border: 1px solid black; width: 25%; padding: 5px 0px 5px 5px; margin-right: 25px;">
+		<div class="stat-box" style="">
 		<span class="reportEstateTotal">€0</span>
 		</div>
 		is the total value of your estate.</p>
@@ -514,7 +514,7 @@ function estate_planning_tool_contents() {
 
 		<div style="display:flex; padding 5px; margin-top: 5px;">
 		<p style="padding: 5px; margin-left: 20px;">
-		<div style="border: 1px solid black; width: 25%; padding: 5px 0px 5px 5px; margin-right: 25px;">
+		<div class="stat-box" style="">
 		€<span class="reportTotalTaxLiability">0</span>
 		</div>
 		is the estimated inheritance tax (and income tax if applicable) to be paid by your beneficiaries.</p>
@@ -527,7 +527,7 @@ function estate_planning_tool_contents() {
 				HOW YOUR ESTATE WILL BE SPLIT AND <br> WHAT TAX WILL HAVE TO BE PAID
 			</div>
 		</div>
-			<table id="reportBeneficiariesTable" style="margin-left:0px">
+			<table id="reportBeneficiariesTable" class="report-table" style="margin-left:0px">
 				<thead>
 					<tr>
 						<th style="width:120px">Name of Beneficiaries</th>
@@ -576,7 +576,7 @@ function estate_planning_tool_contents() {
 
 			<div class="row" class="taxLiabilityBox">
 			  <div class="col-sm-6" style="padding: 5px; font-size:15px; float:left;">Each beneficiary\'s estimated Tax Liability is shown above, giving a total Tax Liability of </div>
-			  <div class="col-sm-3" style="background-color:white; margin-top:10px; margin-bottom: 10px; margin-right: 5px; float:right; width: 25%; border: 1px solid black;">€<strong><span class="reportTotalTaxLiability"></span></strong></div>
+			  <div class="col-sm-3 stat-box" style="float:right">€<strong><span class="reportTotalTaxLiability"></span></strong></div>
 			</div>
 
 		<!-- Page 3 -->
@@ -616,7 +616,7 @@ function estate_planning_tool_contents() {
 		</div>
 		<div class="row">
 			<div class="col-sm-8">
-			<table style="padding: 0px;">
+			<table class="report-table" style="padding: 0px;">
 				<tbody>
 					<tr>
 						<td>Family Home</td>
@@ -691,7 +691,7 @@ function estate_planning_tool_contents() {
 
 			</div>
 
-			<ul id="assumptions">
+			<ul id="assumptions" class="report-assumptions">
 			  <li>We understand that your estate will be divided between your beneficiaries as shown</li>
 			  <li>Where the children / beneficiaries have previously received gifts or inheritances from other sources since 5th December 1991 this will have reduced their available Group tax free threshold.</li>
 			  <li>If the family home exemption, business relief or farm relief applies these are subject to the conditions being met for each of these reliefs. Full details of the conditions for these reliefs are available in the Appendices.</li>
@@ -738,7 +738,7 @@ function estate_planning_tool_contents() {
 			<p class="sub-heading">CAT Rates</p>
 			<p>For new gifts and inheritances received on or after 5th December 2001 tax is calculated according to the total of all gifts and inheritances received from all sources since 5th December, 1991. The following CAT Tax Table currently applies:</p>
 
-			<table style="width:50%;">
+			<table class="report-table" style="width:50%;">
 			<th colspan="2">Tax Rate</th>
 			<tr>
 				<td>Group Threshold</td>
@@ -754,12 +754,12 @@ function estate_planning_tool_contents() {
 
 
 
-			<table>
+			<table class="report-table">
 			<th colspan="2">Tax Rate</th>
 			<tr>
 				<td style="padding: 10px;width: 100px;">Group 1 €310,000</td>
 				<td style="border: 1px solid grey; padding: 5px;">
-				<ul>
+				<ul class="report-table__list">
 				  <p>Where the person receiving the property is</p>
 				  <li style="list-style-type: none;">a child of the disponer or,</li>
 				  <li style="list-style-type: none;">a child of the civil partner of the disponer, or,</li>
@@ -773,7 +773,7 @@ function estate_planning_tool_contents() {
 			<tr>
 				<td>Group 2 €32,500</td>
 				<td style="border: 1px solid grey; padding:5px;">
-				<ul>
+				<ul class="report-table__list">
 				<p>Where the person receiving the property is</p>
 				<li style="list-style-type: none;">a lineal ancestor of the disponer, </li>
 				<li style="list-style-type: none;">a descendant of the disponer, </li>
@@ -806,7 +806,7 @@ function estate_planning_tool_contents() {
 
 			<p>The main reliefs and exemptions are:</p>
 			</div>
-			<div class="row" style="padding: 5px;">
+			<div class="row report-subtext" style="padding: 5px;">
 			<div class="col-sm-4" style="font-weight: bold;">Spouse / Civil Partner</div>
 			<div class="col-sm-8"><p>Gifts or inheritances received by one spouse / civil partner from the other are totally exempt from CAT.</p></div>
 
@@ -859,7 +859,7 @@ function estate_planning_tool_contents() {
 			<p> If there is no Will the individual is said to have died <b>“intestate”</b> and the property is distributed by the personal representatives <b>“administrators”</b> in accordance with the provisions of the <b>Succession Act 1965.</b></p>
 			<p>The Succession Act provides a legal spouse, a registered civil partner and children with certain minimum legal entitlements as follows:</p>
 
-			<table id="no-will">
+			<table id="no-will" class="report-table">
 			<p><b>NO Will</b> - <i> where a person dies "intestate"</i></p>
 			<tr style="background-color: #ffffff">
 				<td>Spouse or civil partner  and no children :</td>
@@ -886,7 +886,7 @@ function estate_planning_tool_contents() {
 
 			<p>Where an individual dies "intestate" leaving neither spouse, civil partner nor children, his assets will pass to parents, if his parents are deceased to his brothers and sisters, otherwise to wider family - the Act provides a hierarchical list.</p>
 
-			<table id="will">
+			<table id="will" class="report-table">
 			<p><b>Will</b> -<i>a "testate" death (Entitlement regardless of provisions of will)</i></p>
 			<tr style="background-color: #ffffff">
 				<td>Spouse or civil partner  and no children :</td>
