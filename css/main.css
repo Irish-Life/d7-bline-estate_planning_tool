@@ -34,18 +34,18 @@ margin-top: -30px;}
 @media print {
 
 
-	
+
 	#the-print-report {
 	display: block;
 	 }
-	
+
 }
 
 /* ************ HIDE SECTIONS ******************* */
 #personal-info, #beneficiaries, #the-print-report, #estate-value, #showInputs,
 #name-error, #age-error, #age-2-error, #married-error, #married-section, #assets-error, #ben-error, #pdf-mobile, #businessModalContent, #farmModalContent, #familyModalContent {
 	display:none;
-} 
+}
 
 #beneficiaries-form-1 .panel-heading, #beneficiaries-form-2 .panel-heading, #beneficiaries-form-3 .panel-heading, #beneficiaries-form-4 .panel-heading {
 pointer-events:none;}
@@ -61,9 +61,9 @@ color:black!important;}
 .modal-dialog {
     background-color: white;
     padding: 10px;}
-	
+
 .modal-backdrop {
-background-color: #0000006e;}	
+background-color: #0000006e;}
 
 #spinner {
 	background-image: url('Spinner.gif');
@@ -139,14 +139,14 @@ table, th, td {
     color: #c0c0c0;
     font-size: 21px;
 }
- 
+
 .intro h2 {
 	color:white;
 	font-weight:400;
 	padding:45px;
 	font-size: 35px!important;
     line-height: 37px;
-} 
+}
 
 .intro-light {
 	font-weight:300;
@@ -184,7 +184,7 @@ table, th, td {
 	color: #dddfee;
 	font-size: 50px;
     margin-bottom: 15px;
-} 
+}
 
 /*
 .backButton {
@@ -236,7 +236,7 @@ table, th, td {
 	width: 300px;
 	align: center;
 	margin-left: 320px;
-	
+
 }
 
 
@@ -536,7 +536,7 @@ list-style-type:none;
 }
 
 ul.li{
-	list-style-type:none; 
+	list-style-type:none;
 }
 p.supporting-information, .appendix-i, .appendix-ii, .appendix-iii, .appendix-iv {
 	font-weight: bold;
@@ -572,10 +572,10 @@ p.sub-heading-indent{
 .reliefs-right {
 	float:left;
 }
-.pagebreak { 
+.pagebreak {
 	page-break-before: always;
 	}
-	
+
 #options-container {
     width: 100%;
     height: 225px;
@@ -589,7 +589,7 @@ p.sub-heading-indent{
 	width: 50%;
     padding: 5px;
     text-align: center;
-	overflow: hidden;	
+	overflow: hidden;
 	height:300px;
 	background-color:#F7F7F7;
 }
@@ -623,9 +623,9 @@ div#right {
 }
 
 .assets-mobile {
-	
+
 	width:100%;
-	
+
 }
 .taxLiabilityBox {
 	background-color:#F7F7F7;
@@ -641,7 +641,7 @@ div#right {
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
 	.assets-browser {
-	
+
 	display:none;
 
 }
@@ -652,14 +652,14 @@ and (max-device-width : 480px) {
 }
 
 }
- Smartphones (landscape) iPhone 4 Landscape----------- 
+ Smartphones (landscape) iPhone 4 Landscape-----------
 @media only screen
 and (min-width : 480px)
 and (max-device-width : 320px)  {
 	.assets-browser{
-		
+
 	display:none;
-	
+
 		}
 
 }
@@ -734,7 +734,7 @@ label {
 	text-decoration: none solid rgb(0, 0, 0);
 	line-height: 24px;
 }
-		
+
 #married-yes, #married-no {
 	display:none;
 }
@@ -781,12 +781,12 @@ input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
-.uneditable-input:focus {   
+.uneditable-input:focus {
   border: 2px solid #5261ac;
   box-shadow: none;
   outline: 0 none;
 }
- 
+
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
@@ -876,89 +876,89 @@ margin-bottom:0px;}
 
 .mt {
 	margin-top: 40px;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-      
+
 	  .progress-circ-1::after {
 		  left: 71px;
 	  }
-	  
+
 	  .progress-circ-2::after {
 		  left: 39px;
 	  }
-	  
+
 	  .progress-circ-1-active::after{
 		  top: 37px;
           left: 74px;
 		  width:12em;
 	  }
-	  
+
 	  .progress-circ-2-active::after {
 		  left:77px;
 		  width:12em;
 	  }
-	  
+
 	  .progress-circ-3::after {
 		  left: 54px;
 	  }
-	  
+
 	  .progress-circ-3-active::after {
 		  left:49px;
 	  }
-	  
+
 	  .progressBar p {
 	  font-size: 14px;}
-	  
+
 	  #clear-beneficiaries, #add-beneficiary {
 	  font-size: 16px;}
-	  
+
 	  .panel-title {
 	  font-size:14px;}
-	  
-	  
+
+
 }
 
 
 @media only screen and (min-device-width : 641px) and (max-device-width : 767px) {
-	   
+
 	   .progress-circ-1-active::after {
 		   left: 60px;
 	   }
-	   
+
 	   .progress-circ-2-active::after  {
 		   left: 61px;
 	   }
-	   
+
 	   .progress-circ-3::after {
 		   left: 18px;
 	   }
 }
 
 @media only screen and (min-device-width : 481px) and (max-device-width : 640px) {
-	
+
 	   .progress-circ-1-active::after { width: 7em;}
-	   
+
 	   .progress-circ-2-active::after { width: 6.9em;}
-	   
+
 	   .progress-circ-3::after {width:10em;}
-	   
+
 	   .intro h2 {
     color: white;
     font-weight: 400;
     padding: 45px;
     font-size: 24px!important;
     line-height: 37px;}
-	
+
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	
+
 label {
 	font-size:14px;
-}	
+}
 
 .intro h2 {
     color: white;
@@ -995,11 +995,11 @@ label {
 #add-beneficiary {
 	width:100%;
 }
-  
+
 .progressBar p {
 	  font-size: 9px;
 }
-  
+
 .progress-circ-1::after {
     content: '';
     position: absolute;
@@ -1153,15 +1153,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,  {
     display: block !important;
-    width: 100% !important;}		
-.clearfix:before, .clearfix:after{  
+    width: 100% !important;}
+.clearfix:before, .clearfix:after{
     display: block!important;
-}		
+}
 #beneficiary-1 {
 
 	margin-top: 10px;
 	margin-bottom:20px;
-	
+
 }
 
 #beneficiary-2 {
@@ -1192,15 +1192,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	padding: 24px;
 	background-color:#f8f8fb !important;
 }
-		
-	
+
+
 #options-container {
     width: 100%;
     height: 225px;
     margin: auto;
     padding: 10px;
 }
-		
+
 .header-wrapper {
     display: block;
     width: auto;
@@ -1225,7 +1225,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     max-width: 149px;
     display: block;
 	border: .5px solid black;
-	
+
 }
 
 .header-text {
@@ -1236,13 +1236,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     transform: translateY(-50%);
 	color: #fff !important;
 }
-		
-    
-	
-	.pagebreak { 
+
+
+
+	.pagebreak {
 	page-break-before: always;
 	}
-	
+
 #options-container {
     width: 100%;
     height: 250px;
@@ -1260,7 +1260,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	width: 50%;
     padding: 5px;
     text-align: center;
-	overflow: hidden;	
+	overflow: hidden;
 	height:100% !important;
 	background-color:#F7F7F7;
 }
@@ -1281,13 +1281,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	padding: 10px;
 }
 
-#section-content { 
-    -webkit-print-color-adjust: exact !important; 
+#section-content {
+    -webkit-print-color-adjust: exact !important;
   }
 
   }
 @page { size: auto;  margin: 0mm; }
-	
+
 /* REPORT HEADERS --------------*/
 
 
@@ -1315,7 +1315,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     max-width: 149px;
     display: block;
 	border: .5px solid black;
-	
+
 }
 
 .header-text {

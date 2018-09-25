@@ -506,7 +506,7 @@ function estate_planning_tool_contents() {
 		<div id="totals">
 		<div style="display:flex; padding 5px; margin-left: 20px;">
 		<p style="padding: 5px;">
-		<div style="border: 1px solid black; width: 25%; padding: 5px 250px 5px 5px; margin-right: 25px;">
+		<div style="border: 1px solid black; width: 25%; padding: 5px 0px 5px 5px; margin-right: 25px;">
 		<span class="reportEstateTotal">€0</span>
 		</div>
 		is the total value of your estate.</p>
@@ -514,7 +514,7 @@ function estate_planning_tool_contents() {
 
 		<div style="display:flex; padding 5px; margin-top: 5px;">
 		<p style="padding: 5px; margin-left: 20px;">
-		<div style="border: 1px solid black; width: 25%; padding: 5px 250px 5px 5px; margin-right: 25px;">
+		<div style="border: 1px solid black; width: 25%; padding: 5px 0px 5px 5px; margin-right: 25px;">
 		€<span class="reportTotalTaxLiability">0</span>
 		</div>
 		is the estimated inheritance tax (and income tax if applicable) to be paid by your beneficiaries.</p>
@@ -545,7 +545,7 @@ function estate_planning_tool_contents() {
 			<div>
 			*Group thresholds available from 11<sup>th</sup> October 2016
 			</div>
-			<table id="taxOnArf" style="margin-left:0px; width:100%;">
+			<!-- <table id="taxOnArf" style="margin-left:0px; width:100%;">
 			<thead>
 				<tr>
 				<th colspan="4" text-align: center; background-color: #A39B88; color: #fff;>Tax on ARF / AMRF value inherited by your children over 21</th>
@@ -563,7 +563,7 @@ function estate_planning_tool_contents() {
 					<td id="result"></td>
 				</tr>
 			</thead>
-			</table>
+			</table> -->
 			<div class="row">
 			<div class="taxOnArfTable" style="height:15%;width:100%; margin-left:10px;">
 			<div style="float:left; width: 100%; margin-top: 10px; margin-bottom: 10px;">
@@ -581,7 +581,7 @@ function estate_planning_tool_contents() {
 
 		<!-- Page 3 -->
 
-		<div class="pagebreak"> </div>
+
 		<div class="header-bg">
 			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
 			<div class="header-text">
@@ -670,7 +670,7 @@ function estate_planning_tool_contents() {
 			</div>
 			</div>
 
-			<!-- Page 4 -->
+			<!-- Page 3 -->
 				<div class="row" id="the-accordion-2">
 					<!--=============== beneficiaries accordion inserted here with JS ======-->
 				</div>
@@ -681,7 +681,7 @@ function estate_planning_tool_contents() {
 				BENEFICIARIES
 			</div>
 			<div id="show-ben-details"></div>
-			<div class="pagebreak"> </div>
+
 
 			<div class="header-bg">
 			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
@@ -712,7 +712,7 @@ function estate_planning_tool_contents() {
 			<div style="background-color:#F7F7F7; padding: 5px; font-style: italic;"><p>This illustration is based on the information you have given us and on our understanding of current legislation and Revenue practice. It is important that you provide all your financial details as information not included cannot be taken into account in providing advice.</p></div>
 			</div>
 
-			<!-- Page 4 -->
+
 
 			<div class="pagebreak"> </div>
 
@@ -752,9 +752,7 @@ function estate_planning_tool_contents() {
 			<p>Source CAT Consolidation Act 2003 (as updated by subsequent Finance Acts).</p>
 			<p>The Group threshold amounts vary depending on the relationship between the beneficiary and the disponer, i.e. the person providing the gift or inheritance.</p>
 
-			<!-- Page 5 -->
 
-			<div class="pagebreak"> </div>
 
 			<table>
 			<th colspan="2">Tax Rate</th>
@@ -795,15 +793,16 @@ function estate_planning_tool_contents() {
 			Source CAT Consolidation Act 2003 (as updated by subsequent Finance Acts).
 			</p>
 
+			<div class="pagebreak"> </div>
 			<p class="sub-heading">Aggregation</p>
 			<p>Under the current aggregation rules all benefits from Group 1 will be added together with an overall threshold of <b>€310,000</b>. Benefits from Group 2 members (brother, sister, grandparent etc) will be added together for the purpose of the <b>€32,500</b> threshold, and benefits from Group 3 members (strangers) for the purpose of the €16,250 threshold. So in effect a beneficiary can potentially receive up to <b>€358,750</b> tax-free if the benefits come through different "groups".</p>
 
 			<p class="sub-heading">Relief’s and Exemptions</p>
 			<p> Certain reliefs and exemptions apply to certain types of assets. These have been introduced over the years primarily to encourage private enterprise and to avoid the forced sale of a family farm, business or the family home in certain circumstances.</p>
 
-			<!-- Page 6 -->
 
-			<div class="pagebreak"> </div>
+
+
 
 			<p>The main reliefs and exemptions are:</p>
 			</div>
@@ -886,7 +885,7 @@ function estate_planning_tool_contents() {
 			</table>
 
 			<p>Where an individual dies "intestate" leaving neither spouse, civil partner nor children, his assets will pass to parents, if his parents are deceased to his brothers and sisters, otherwise to wider family - the Act provides a hierarchical list.</p>
-			<div class="pagebreak"> </div>
+
 			<table id="will">
 			<p><b>Will</b> -<i>a "testate" death (Entitlement regardless of provisions of will)</i></p>
 			<tr style="background-color: #ffffff">
