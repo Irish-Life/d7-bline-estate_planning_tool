@@ -779,7 +779,8 @@ function setupAccordion(whichForm) {
 
 //save beneficiary
 function saveBeneficiary(number, name, age, reliefs, currentAssets, threshold, assetsInherited, taxVal, taxLib, newOrEdit) {
-
+	// Enable GET THE REPORT button when a beneficiary is saved
+	$("#showPrint").removeAttr("disabled");
 	    addingNewUser = newOrEdit;
 
 		//store the table for a beneficiary
@@ -1816,6 +1817,7 @@ function calcBeneficiaryTax() {
 
  function clearBeneficiaries() {
 	 $('.saved-beneficiary, .beneficiaries-form').remove();
+	 	$("#showPrint").attr("disabled", true);
 		////console.log(newTaxLib);
 		totalTaxLiability = 0;
 		form ='';
@@ -1870,9 +1872,16 @@ $('#showPrint').show();
 }
 
 	$('#showPrint').click(function(){
-		showPrint();
-		setupAccordion(form);
-		console.log(setupAccordion(form));
+		// Check if it's safe to generate the report
+		if($("#showPrint").attr("disabled")) {
+			alert("Please ensure to save a beneficiary before generating the report. Up to 4 beneficiaries can be added");
+		}
+		else {
+			$(document).attr("title", "Estate Planning Pathfinder");
+			showPrint();
+			setupAccordion(form);
+			console.log(setupAccordion(form));
+		}
 	});
 
 	$('#showInputs').click(function(){

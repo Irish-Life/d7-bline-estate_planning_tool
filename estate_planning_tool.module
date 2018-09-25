@@ -424,7 +424,7 @@ function estate_planning_tool_contents() {
 
 			<div class="row mt">
 					  <div class="col-lg-8 col-sm-8 col-xs-12 col-lg-offset-2 col-sm-offset-2">
-					  <div id="showPrint">
+					  <div id="showPrint" disabled>
 					  GET THE REPORT
 					  </div>
 						<div class="backButton" id="beneficiaries-back">
