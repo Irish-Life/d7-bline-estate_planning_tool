@@ -547,6 +547,7 @@ table, th, td {
 
 .report-assumptions > li {
 	font-size: 14px;
+	line-height: 1.8;
 }
 
 .report-table {
@@ -555,6 +556,10 @@ table, th, td {
 
 .report-table__list {
 	font-size: 14px;
+}
+
+.report-table__list li {
+	padding: 6px 0;
 }
 
 .report-subtext {
@@ -1297,7 +1302,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 		color: #fff !important;
 	}
 
-
+	.sub-heading__agg {
+		padding-top: 3em;
+	}
 
 	.pagebreak {
 	page-break-before: always;

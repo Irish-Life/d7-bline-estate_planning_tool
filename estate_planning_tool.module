@@ -478,7 +478,7 @@ function estate_planning_tool_contents() {
 			<div class="printButton" onclick="window.print();">Click here to Print Report</div>
 			<div class="printButtonText">
 			<i class="small-text">
-			<li>Choose Destination: Save to PDF to save a copy as PDF</li>
+
 			<li>Click the Print Report Button.</li>
 			<li>In the right column, press Change to change the document type you would like to save the report as </li>
 			<li>Under Print Destinations, choose Save as PDF</li>
@@ -670,10 +670,10 @@ function estate_planning_tool_contents() {
 					</tr>
 				</tbody>
 			</table>
-			</div>
+	</div>
 
 
-			<div class="header-bg">
+			<div class="header-bg"  style="margin-top: 6em;">
 			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
 			<div class="header-text">
 				WE HAVE BASED THE REPORT ON THE <br> FOLLOWING ASSUMPTIONS
@@ -702,15 +702,12 @@ function estate_planning_tool_contents() {
 			</div>
 
 
-			<div class="pagebreak"> </div>
+
 			<div class="col-sm-4">
 							<img src="https://www.irishlife.ie/sites/retail/files/family-310.png" id="family-img">
 			</div>
-			</div>
-				<div class="row" id="the-accordion-2">
-					<!--=============== beneficiaries accordion inserted here with JS ======-->
-				</div>
 
+			<div class="pagebreak"> </div>
 			<div class="header-bg" style="margin-bottom: 20px;">
 			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
 			<div class="header-text">
@@ -801,7 +798,7 @@ function estate_planning_tool_contents() {
 			</p>
 
 			<div class="pagebreak"> </div>
-			<p class="sub-heading">Aggregation</p>
+			<p class="sub-heading sub-heading__agg">Aggregation</p>
 			<p>Under the current aggregation rules all benefits from Group 1 will be added together with an overall threshold of <b>€310,000</b>. Benefits from Group 2 members (brother, sister, grandparent etc) will be added together for the purpose of the <b>€32,500</b> threshold, and benefits from Group 3 members (strangers) for the purpose of the €16,250 threshold. So in effect a beneficiary can potentially receive up to <b>€358,750</b> tax-free if the benefits come through different "groups".</p>
 
 			<p class="sub-heading">Relief’s and Exemptions</p>
