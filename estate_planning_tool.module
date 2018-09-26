@@ -494,11 +494,12 @@ function estate_planning_tool_contents() {
 			<h1 class="report-title">Estate Planning Report</h1>
 
 			<img src="https://www.irishlife.ie/sites/retail/files/estate-planner/images/estate-planner-cover-page.PNG" class="cover-page-img" style="width:100%; margin: 20px 0px 20px 0px;"/>
-			<h2 style="text-align: center;"><span lang="EN-GB" style=\'font-size:20.0pt;line-height:150%;font-family:"Times","sans-serif"\'>For <span class="reportNames" ></span></h2>
-			<h2 style="text-align: center;"><span lang="EN-GB" style=\'font-size:20.0pt;line-height:150%;font-family:"Times","sans-serif"\'>On <span id="today">12 June 2015</span></h2>
+			<p class="report-subtitle">For <span class="reportNames" ></span></p>
+			<p class="report-subtitle"><span>On <span id="today">12 June 2015</span></p>
 			<br>
-			<p style=\'line-height:150%;tab-stops:36.0pt 72.0pt 122.4pt 208.8pt 288.0pt\ style=\'mso-bidi-font-style: normal\'><span style=\'font-size:11.0pt;mso-bidi-font-size:10.0pt;text-align:center;line-height:150%;font-family:"Arial","sans-serif"\'><span style=\'mso-tab-count: 1\'></span>
-			This report shows the amount of tax that would have to be paid by the people who will inherit your estate when you die. It can help you plan your estate in the most tax efficient way possible. It is important that you have given us all your financial details for the report to be as accurate as possible.</span></i></p>
+			<p class="report-title__desc">
+			This report shows the amount of tax that would have to be paid by the people who will inherit your estate when you die. It can help you plan your estate in the most tax efficient way possible. It is important that you have given us all your financial details for the report to be as accurate as possible.
+			</p>
 			</div>
 
 			</div></div>
@@ -519,7 +520,7 @@ function estate_planning_tool_contents() {
 		<div class="stat-box">
 		<span class="reportEstateTotal">€0</span>
 		</div>
-		<p class="tiny-text">is the total value of your estate.</p>
+		<p class="small-text">is the total value of your estate.</p>
 		</div>
 
 		<div style="display:flex; margin-top: 5px;">
@@ -527,7 +528,7 @@ function estate_planning_tool_contents() {
 		<div class="stat-box">
 		€<span class="reportTotalTaxLiability">0</span>
 		</div>
-		<p class="tiny-text">is the estimated inheritance tax (and income tax if applicable) to be paid by your beneficiaries.</p>
+		<p class="small-text">is the estimated inheritance tax (and income tax if applicable) to be paid by your beneficiaries.</p>
 		</div>
 		</div>
 
@@ -553,8 +554,8 @@ function estate_planning_tool_contents() {
 						<td> <span class="reportTotalTaxLiability">taxLiability</span></td>
 			</table>
 			<div >
-			<p class="tiny-text">*Group thresholds available from 11<sup>th</sup> October 2016</p>
-			<p class="tiny-text">**Where a child (aged 21 and over) inherits the clients ARF / AMRF this amount will be subject to income tax at a rate of 30%. This amount is included in the childs tax liability as noted above.</p>
+			<p class="small-text">*Group thresholds available from 11<sup>th</sup> October 2016</p>
+			<p class="small-text">**Where a child (aged 21 and over) inherits the clients ARF / AMRF this amount will be subject to income tax at a rate of 30%. This amount is included in the childs tax liability as noted above.</p>
 			</div>
 			<!-- <table id="taxOnArf" style="margin-left:0px; width:100%;">
 			<thead>
@@ -585,9 +586,9 @@ function estate_planning_tool_contents() {
 			</div>
 			</div>
 
-			<div class="row" class="taxLiabilityBox">
-			  <div class="col-sm-6" style="padding: 5px; font-size:15px; float:left;">Each beneficiary\'s estimated Tax Liability is shown above, giving a total Tax Liability of </div>
-			  <div class="col-sm-3 stat-box" style="float:right">€<strong><span class="reportTotalTaxLiability"></span></strong></div>
+			<div class="row taxLiabilityBox">
+			  <div class="col-sm-6"><p class="small-text" style="padding-top: 40px">Each beneficiary\'s estimated Tax Liability is shown above, giving a total Tax Liability of </div>
+			  <div class="col-sm-3 stat-box" style="float:right">€<span class="reportTotalTaxLiability"></span></div>
 			</div>
 
 		<div class="header-bg">
@@ -601,7 +602,7 @@ function estate_planning_tool_contents() {
 			<p style="margin: 10px;"> There are various options that can be used to deal with your beneficiaries anticipated inheritance tax liability. The most suitable solution will depend on the factual information you have provided.</p>
 		</div>
 		<div id="options-container">
-			<div id="do-nothing-box" style="margin: 5px; width: 40%; height:100%; ">
+			<div id="do-nothing-box" style="margin: 5px; width: 40%; height:100%; padding:1em">
 			<h3>1. Do nothing</h3>
 			<p>If you make no advance provision for the beneficiaries\' inheritance tax liability the beneficiaries may have to either.</p>
 			<ul class="small-text">
@@ -609,7 +610,7 @@ function estate_planning_tool_contents() {
 				<li> Borrow money to pay inheritance tax </li>
 			</ul>
 			</div>
-			<div id="provide-for-taxes-box" style="margin: 5px; width: 40%; height:100%; ">
+			<div id="provide-for-taxes-box" style="margin: 5px; width: 40%; height:100%; padding:1em">
 			<h3>2. Make advance provision</h3>
 			<p>The solution lies in you effecting a Section 72 Life Insurance Plan for a sum of €<span class="reportTotalTaxLiability"></span> for the benefit of your beneficiaries.</p>
 			</div>
@@ -624,7 +625,7 @@ function estate_planning_tool_contents() {
 		</div>
 		<div class="row">
 			<div class="col-sm-8">
-			<table style="padding: 0px; font-size: 11px">
+			<table class="report-table">
 				<tbody>
 					<tr>
 						<td>Family Home</td>
@@ -670,22 +671,6 @@ function estate_planning_tool_contents() {
 			</table>
 			</div>
 
-			<div class="pagebreak"> </div>
-			<div class="col-sm-4">
-							<img src="https://www.irishlife.ie/sites/retail/files/family-310.png" id="family-img">
-			</div>
-			</div>
-				<div class="row" id="the-accordion-2">
-					<!--=============== beneficiaries accordion inserted here with JS ======-->
-				</div>
-
-			<div class="header-bg" style="margin-bottom: 20px;">
-			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
-			<div class="header-text">
-				BENEFICIARIES
-			</div>
-			<div id="show-ben-details"></div>
-
 
 			<div class="header-bg">
 			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
@@ -709,12 +694,29 @@ function estate_planning_tool_contents() {
 			<div id="breaking-line "style="background-color:#F7F7F7; height: 5px; width: 100%;"></div>
 
 			<div class="row">
-			<div style="overflow:hidden; width: 100%; padding: 5px;"><p>Inheritance tax is due and payable on the valuation date of the inheritance, which will normally be very shortly after death. Unpaid tax attracts interest which is not tax deductible.</p></div>
+			<div style="padding:1em;"><p>Inheritance tax is due and payable on the valuation date of the inheritance, which will normally be very shortly after death. Unpaid tax attracts interest which is not tax deductible.</p>
+
+			<p>This illustration is based on the information you have given us and on our understanding of current legislation and Revenue practice. It is important that you provide all your financial details as information not included cannot be taken into account in providing advice.</p>
+			</div>
 			</div>
 
-			<div class="row">
-			<div style="background-color:#F7F7F7; padding: 5px; font-style: italic;"><p>This illustration is based on the information you have given us and on our understanding of current legislation and Revenue practice. It is important that you provide all your financial details as information not included cannot be taken into account in providing advice.</p></div>
+
+			<div class="pagebreak"> </div>
+			<div class="col-sm-4">
+							<img src="https://www.irishlife.ie/sites/retail/files/family-310.png" id="family-img">
 			</div>
+			</div>
+				<div class="row" id="the-accordion-2">
+					<!--=============== beneficiaries accordion inserted here with JS ======-->
+				</div>
+
+			<div class="header-bg" style="margin-bottom: 20px;">
+			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
+			<div class="header-text">
+				BENEFICIARIES
+			</div>
+			<div id="show-ben-details"></div>
+
 
 
 
@@ -761,10 +763,10 @@ function estate_planning_tool_contents() {
 			<table class="report-table">
 			<th colspan="2">Tax Rate</th>
 			<tr>
-				<td style="padding: 10px;width: 100px;">Group 1 €310,000</td>
-				<td style="border: 1px solid grey; padding: 5px;">
+				<td>Group 1 €310,000</td>
+				<td>
 				<ul class="report-table__list">
-				  <p>Where the person receiving the property is</p>
+				  <p class="small-text">Where the person receiving the property is</p>
 				  <li style="list-style-type: none;">a child of the disponer or,</li>
 				  <li style="list-style-type: none;">a child of the civil partner of the disponer, or,</li>
 				  <li style="list-style-type: none;">a minor child of a deceased child of the disponer or,</li>
@@ -776,9 +778,9 @@ function estate_planning_tool_contents() {
 			</tr>
 			<tr>
 				<td>Group 2 €32,500</td>
-				<td style="border: 1px solid grey; padding:5px;">
+				<td>
 				<ul class="report-table__list">
-				<p>Where the person receiving the property is</p>
+				<p class="small-text">Where the person receiving the property is</p>
 				<li style="list-style-type: none;">a lineal ancestor of the disponer, </li>
 				<li style="list-style-type: none;">a descendant of the disponer, </li>
 				<li style="list-style-type: none;">a brother/sister of the disponer, or,</li>
@@ -788,12 +790,12 @@ function estate_planning_tool_contents() {
 			</tr>
 			<tr>
 				<td>Group 3 €16,250</td>
-				<td style="border: 1px solid grey; padding: 5px;">All other cases
+				<td>All other cases
 				</td>
 			</tr>
 
 			</table>
-			<p>The threshold amounts are those applying with effect from midnight on 11th October 2016.
+			<p class="small-text">The threshold amounts are those applying with effect from midnight on 11th October 2016.
 			Source CAT Consolidation Act 2003 (as updated by subsequent Finance Acts).
 			</p>
 
@@ -811,26 +813,26 @@ function estate_planning_tool_contents() {
 			<p>The main reliefs and exemptions are:</p>
 			</div>
 			<div class="row report-subtext" style="padding: 5px;">
-			<div class="col-sm-4" style="font-weight: bold;">Spouse / Civil Partner</div>
+			<div class="col-sm-4" class="headings">Spouse / Civil Partner</div>
 			<div class="col-sm-8"><p>Gifts or inheritances received by one spouse / civil partner from the other are totally exempt from CAT.</p></div>
 
 
-			<div class="col-sm-4" style="font-weight: bold;" >Agricultural Relief</div>
+			<div class="col-sm-4" class="headings">Agricultural Relief</div>
 			<div class="col-sm-8"><p>The value of farmland, buildings and stock can be reduced by 90% where the beneficiary is a qualifying farmer and holds the property for a minimum of 6 years.</p></div>
 
 
-			<div class="col-sm-4" style="font-weight: bold;" >Business Relief</div>
+			<div class="col-sm-4" class="headings">Business Relief</div>
 			<div class="col-sm-8"><p>Provides a similar reduction of 90% in the value of certain businesses or private companies, where both the business and the beneficiary meet the qualifying conditions.</p></div>
 
 
-			<div class="col-sm-4" style="font-weight: bold;" >Family Home</div>
+			<div class="col-sm-4"  class="headings">Family Home</div>
 			<div class="col-sm-8"><p>Exemption from Gift and Inheritance Tax may be available on the value of certain dwellings where both the donor and beneficiary satisfy certain conditions. The donor has to be living in the property at the date of his or her death and the beneficiaries must meet all of the following conditions:</p>
 					<li>Have occupied the house as his sole or main dwelling for three years prior to the date of the gift or inheritance,</li
 					<li>At the date of the gift or inheritance does not hold an interest in any other dwelling house either in Ireland or outside of the state,</li>
 					<li>Continue to occupy the house as his sole or main residence for 6 years after the date of the gift of inheritance.</li></div>
 
 
-			<div class="col-sm-4" style="font-weight: bold;">Life Assurance Relief</div>
+			<div class="col-sm-4"  class="headings">Life Assurance Relief</div>
 			<div class="col-sm-8"><p>The proceeds of life assurance policies, where the plan was effected specifically for the payment of Inheritance Tax or the tax payable on the value of an ARF inherited by a child over the age of 21, will not be subject to Inheritance Tax – provided the money is actually used to pay the relevant tax bills.</p></div>
 
 			</div>
@@ -865,23 +867,23 @@ function estate_planning_tool_contents() {
 
 			<table id="no-will" class="report-table">
 			<p><b>NO Will</b> - <i> where a person dies "intestate"</i></p>
-			<tr style="background-color: #ffffff">
+			<tr>
 				<td>Spouse or civil partner  and no children</td>
 				<td>Spouse or civil partner entitled to full estate.</td>
 			</tr>
-			<tr style="background-color: #f7f7f7">
+			<tr>
 				<td>Spouse or civil partner and children</td>
-				<td><p>Spouse or civil partner gets 2/3rds</p>
-					<p>Civil partners entitlement is subject to the financial needs of any children being met</p>
-					<p>1/3 equally between children.</p>
+				<td><p class="small-text">Spouse or civil partner gets 2/3rds</p>
+					<p class="small-text">Civil partners entitlement is subject to the financial needs of any children being met</p>
+					<p class="small-text">1/3 equally between children.</p>
 				</td>
 			</tr>
-			<tr style="background-color: #ffffff">
+			<tr>
 				<td>No spouse or civil partner but children:</td>
 				<td><p>Estate is divided equally between children.</p>
 				</td>
 			</tr>
-			<tr style="background-color: #f7f7f7">
+			<tr>
 				<td>No spouse or civil partner and no children:</td>
 				<td><p>Parent(s) if living, otherwise brothers/sisters</p>
 				</td>
@@ -892,14 +894,14 @@ function estate_planning_tool_contents() {
 
 			<table id="will" class="report-table">
 			<p><b>Will</b> -<i>a "testate" death (Entitlement regardless of provisions of will)</i></p>
-			<tr style="background-color: #ffffff">
+			<tr>
 				<td>Spouse or civil partner  and no children</td>
 				<td>Spouse or civil partner entitled to 1/2 of estate.</td>
 			</tr>
-			<tr style="background-color: #f7f7f7">
+			<tr>
 				<td>Spouse or civil partner and children</td>
-				<td><p>Spouse or civil partner entitled to 1/3 of estate.</p>
-					<p>Civil partners entitlement is subject to the financial needs of any children being met as directed by the courts</p>
+				<td><p class="small-text">Spouse or civil partner entitled to 1/3 of estate.</p>
+					<p class="small-text">Civil partners entitlement is subject to the financial needs of any children being met as directed by the courts</p>
 				</td>
 			</tr>
 			</table>
@@ -969,38 +971,38 @@ function estate_planning_tool_contents() {
 			<div id="breaking-line "style="background-color:#F7F7F7; height: 5px; width: 100%;"></div>
 
 			<p class="sub-heading">Company Shares:</p>
-			<p>The definition of “relevant business property” includes unquoted shares and securities of Irish incorporated companies subject to certain conditions.</p>
-			<p><b><i>The company</b></i></p>
-			<p>The company’s business must not consist wholly or mainly of any of the following excluded activities -<i> dealing in currencies, securities, stocks or shares, land or buildings, or making or holding of investments.</i></p>
+			<p class="appendix-text">The definition of “relevant business property” includes unquoted shares and securities of Irish incorporated companies subject to certain conditions.</p>
+			<p class="appendix-sub">The company</p>
+			<p class="appendix-text">The company’s business must not consist wholly or mainly of any of the following excluded activities -<i> dealing in currencies, securities, stocks or shares, land or buildings, or making or holding of investments.</i></p>
 
 
-			<p><b><i>The beneficiary</b></i></p>
-			<p>	For the relief to apply the beneficiary must meet one of the following ownership/control tests:</p>
+			<p class="appendix-sub">The beneficiary</p>
+			<p class="appendix-text">	For the relief to apply the beneficiary must meet one of the following ownership/control tests:</p>
 			<ol class="appendix-ii-conditions-2">
-				<li>The shares themselves or together with other shares in the company held in the absolute beneficial ownership of the beneficiary, give the beneficiary control of 25% of the voting power over all matters relating to the company,<li>
+				<li>The shares themselves or together with other shares in the company held in the absolute beneficial ownership of the beneficiary, give the beneficiary control of 25% of the voting power over all matters relating to the company,</li>
 				<p><b>or</b></p>
 				<li>the beneficiary controls the company or the company is controlled by the beneficiary and his relatives*, </li>
 				<p><b>or</b></p>
 				<li>the beneficiary holds at least 10% of the issued capital of the company and has worked full time in the company for 5 years prior to the gift/inheritance.</li>
 			</ol>
-			<p><i>* Relatives of a person include his spouse, civil partner, children, mother, father, aunt, uncle and any children, grandchildren of any the forgoing. In addition all spouses of relatives are included for the purposes of determining control.
+			<p class="appendix-text"><i>* Relatives of a person include his spouse, civil partner, children, mother, father, aunt, uncle and any children, grandchildren of any the forgoing. In addition all spouses of relatives are included for the purposes of determining control.
 					Control includes - having over 50% of the voting power, or owning more than 50% of the shares or being in a position to control the board of directors.</i></p>
 
 			<div id="breaking-line "style="background-color:#F7F7F7; height: 5px; width: 100%;"></div>
 
 			<p class="sub-heading">Business Relief - unincorporated business.</p>
-			<p>Relevant business property also includes property consisting of a business (Sole trader) or an interest in a business (share in a partnership). A business which is wholly or mainly concerned with<i> dealing in land, shares, securities or currencies or the making or holding of investments is excluded.</i>
+			<p class="appendix-text">Relevant business property also includes property consisting of a business (Sole trader) or an interest in a business (share in a partnership). A business which is wholly or mainly concerned with<i> dealing in land, shares, securities or currencies or the making or holding of investments is excluded.</i>
 				The relief will apply where the business or part of the business is transferred and not simply where an asset that had been part of the business is subject to CAT.
 			</p>
 
 			<div id="breaking-line "style="background-color:#F7F7F7; height: 5px; width: 100%;"></div>
 
 			<p class="sub-heading">General</p>
-			<p>So far we have concentrated on the conditions that apply to the business and the beneficiary in order to qualify for Business Relief. There are some other general conditions worth noting:</p>
+			<p class="appendix-text">So far we have concentrated on the conditions that apply to the business and the beneficiary in order to qualify for Business Relief. There are some other general conditions worth noting:</p>
 			<p class="sub-heading">Disponer</p>
-			<p>The property must have been owned by the disponer for a period of 5 years prior to a gift or 2 years in the case of an inheritance.</p>
+			<p class="appendix-text">The property must have been owned by the disponer for a period of 5 years prior to a gift or 2 years in the case of an inheritance.</p>
 			<p class="sub-heading">Clawback of Relief</p>
-			<p>If within 6 years of the gift or the inheritance of business property:
+			<p class="appendix-text">If within 6 years of the gift or the inheritance of business property:
 				<ol class="appendix-ii-conditions-2">
 				<li>	the business ceases to qualify, or </li>
 				<li>the property is sold or compulsorily acquired and not replaced within one year with other business property
@@ -1009,6 +1011,7 @@ function estate_planning_tool_contents() {
 			</p>
 			</div>
 
+			<div class="pagebreak"></div>
 			<div class="header-bg">
 			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
 			<div class="header-text">
