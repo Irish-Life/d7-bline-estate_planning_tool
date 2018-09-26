@@ -587,8 +587,8 @@ function estate_planning_tool_contents() {
 			</div>
 
 			<div class="row taxLiabilityBox">
-			  <div class="col-sm-6"><p class="small-text" style="padding-top: 40px">Each beneficiary\'s estimated Tax Liability is shown above, giving a total Tax Liability of </div>
-			  <div class="col-sm-3 stat-box" style="float:right">€<span class="reportTotalTaxLiability"></span></div>
+			  <div class="col-sm-6"><p class="small-text">Each beneficiary\'s estimated Tax Liability is shown above, giving a total Tax Liability of </div>
+			  <div class="col-sm-3 stat-box" style="float:right;margin-bottom:30px">€<span class="reportTotalTaxLiability"></span></div>
 			</div>
 
 		<div class="header-bg">
@@ -694,7 +694,7 @@ function estate_planning_tool_contents() {
 			<div id="breaking-line "style="background-color:#F7F7F7; height: 5px; width: 100%;"></div>
 
 			<div class="row">
-			<div style="padding:1em;"><p>Inheritance tax is due and payable on the valuation date of the inheritance, which will normally be very shortly after death. Unpaid tax attracts interest which is not tax deductible.</p>
+			<div style="padding:2em;"><p>Inheritance tax is due and payable on the valuation date of the inheritance, which will normally be very shortly after death. Unpaid tax attracts interest which is not tax deductible.</p>
 
 			<p>This illustration is based on the information you have given us and on our understanding of current legislation and Revenue practice. It is important that you provide all your financial details as information not included cannot be taken into account in providing advice.</p>
 			</div>

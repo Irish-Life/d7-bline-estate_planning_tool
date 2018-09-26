@@ -31,16 +31,6 @@ margin-bottom: 1.429em!important;
 #block-estate-planning-tool-estate-planning-tool {
 margin-top: -30px;}
 
-@media print {
-
-
-
-	#the-print-report {
-	display: block;
-	margin: 0 2em;
-	 }
-
-}
 
 /* ************ HIDE SECTIONS ******************* */
 #personal-info, #beneficiaries, #the-print-report, #estate-value, #showInputs,
@@ -576,27 +566,12 @@ table, th, td {
 	background: transparent !important;
 }
 
-
-.beneficiaries {
-	font-size:18px;
-    line-height: 24px;
-    margin-top: 14px;
-	margin-left: 16px;
-	color: #ffffff;
-}
-
-@media print {
-	.beneficiaries {
-		color: #ffffff;
-	}
-}
-
-
 /* End JB styles */
 .estate-value-liability-box {
 	text-align: center;
 	display: inline;
 }
+
 .list-type{
 list-style-type:none;
 }
@@ -1212,100 +1187,103 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     width: 100% !important;}
 
 @media print {
-  #printReport, .progressBar, .hideOnPrint {
+ 	#printReport, .progressBar, .hideOnPrint {
 	  display:none;
-  }
-}
-@media print
-    {
-        #header,.menu_background,.breadcrumb,#comments,#sidebar-first,.footer_bg,.node-links, #section-header, #messages, #page-title, #section-footer, .printButtonText, .printButton, #family-img { display: none; }
-        .node-view{ display: block;height:800px; }
+	  }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,  {
-    display: block !important;
-    width: 100% !important;}
-.clearfix:before, .clearfix:after{
-    display: block!important;
-}
-#beneficiary-1 {
+	#the-print-report {
+		display: block;
+		margin: 0 2em;
+ 	}
 
-	margin-top: 10px;
-	margin-bottom:20px;
+	.beneficiaries {
+		color: #ffffff;
+	}
 
-}
+    #header,.menu_background,.breadcrumb,#comments,#sidebar-first,.footer_bg,.node-links, #section-header, #messages, #page-title, #section-footer, .printButtonText, .printButton, #family-img { display: none; }
+    .node-view{ display: block;height:800px; }
 
-#beneficiary-2 {
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,  {
+		display: block !important;
+		width: 100% !important;}
+	.clearfix:before, .clearfix:after{
+		display: block!important;
+	}
+	#beneficiary-1 {
+		margin-top: 10px;
+		margin-bottom:20px;
+	}
+	#beneficiary-2 {
+		margin-top: 10px;
+		margin-bottom:20px;
+	}
 
-	margin-top: 10px;
-	margin-bottom:20px;
-}
+	#beneficiary-3 {
 
-#beneficiary-3 {
+		margin-top: 10px;
+		margin-bottom:20px;
+	}
 
-	margin-top: 10px;
-	margin-bottom:20px;
-}
+	#beneficiary-4 {
 
-#beneficiary-4 {
+		margin-top: 10px;
+		margin-bottom:20px;
+	}
 
-	margin-top: 10px;
-	margin-bottom:20px;
-}
+	.saved-heading {
+		padding: 10px;
+		background-color: #A39B88 !important;
+		color: #ffffff !important;
+	}
 
-.saved-heading {
-	padding: 10px;
-    background-color: #A39B88 !important;
-    color: white;
-}
-
-.saved-body {
-	padding: 24px;
-	background-color:#f8f8fb !important;
-}
+	.saved-body {
+		padding: 24px;
+		background-color:#f8f8fb !important;
+	}
 
 
-#options-container {
-    width: 100%;
-    height: 225px;
-    margin: auto;
-    padding: 10px;
-}
+	#options-container {
+		width: 100%;
+		height: 225px;
+		margin: auto;
+		padding: 10px;
+	}
 
-.header-wrapper {
-    display: block;
-    width: auto;
-}
-.header-bg{
-    background-color: #A39B88 !important;
-    position: relative;
-	height: 100px;
-    width: 100%;
-	margin-bottom: 10px;
-	margin-top: 10px;
-}
-.header-font {
-    font-size: 50px;
-    font-weight: bold;
-    text-align: left;
-    text-transform: uppercase;
-}
+	.header-wrapper {
+		display: block;
+		width: auto;
+	}
+	.header-bg{
+		background-color: #A39B88 !important;
+		position: relative;
+		height: 100px;
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.header-font {
+		font-size: 50px;
+		font-weight: bold;
+		text-align: left;
+		text-transform: uppercase;
+	}
 
-.header-img {
-    max-height: 149px;
-    max-width: 149px;
-    display: block;
-	border: .5px solid black;
+	.header-img {
+		max-height: 149px;
+		max-width: 149px;
+		display: block;
+		border: .5px solid black;
 
-}
+	}
 
-.header-text {
-    position: absolute;
-    font-size:25px;
-    right: 100px;
-    top: 50%;
-    transform: translateY(-50%);
-	color: #fff !important;
-}
+	.header-text {
+		position: absolute;
+		font-size:25px;
+		right: 100px;
+		top: 50%;
+		transform: translateY(-50%);
+		color: #fff !important;
+	}
 
 
 
@@ -1313,49 +1291,49 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	page-break-before: always;
 	}
 
-#options-container {
-    width: 100%;
-    height: 250px;
-    margin: auto;
-    padding: 10px;
+	#options-container {
+		width: 100%;
+		height: 250px;
+		margin: auto;
+		padding: 10px;
+	}
+
+	.section-content {
+		padding:10px;
+	}
+
+	#do-nothing-box {
+		float:left;
+		/*border: 1px solid black;*/
+		width: 50%;
+		padding: 5px;
+		text-align: center;
+		overflow: hidden;
+		height:100% !important;
+		background-color:#F7F7F7;
+	}
+
+	#provide-for-taxes-box {
+		/*border: 1px solid black;*/
+		width: 50%;
+		padding: 5px;
+		text-align: center;
+		overflow: hidden;
+		float: right;
+		height:100% !important;
+		background-color:#F7F7F7;
+	}
+
+	.taxLiabilityBox {
+		background-color:#F7F7F7;
+		padding: 10px;
+	}
+
+	#section-content {
+		-webkit-print-color-adjust: exact !important;
+	}
+
 }
-
-.section-content {
-	padding:10px;
-}
-
-#do-nothing-box {
-	float:left;
-	/*border: 1px solid black;*/
-	width: 50%;
-    padding: 5px;
-    text-align: center;
-	overflow: hidden;
-	height:100% !important;
-	background-color:#F7F7F7;
-}
-
-#provide-for-taxes-box {
-	/*border: 1px solid black;*/
-	width: 50%;
-    padding: 5px;
-    text-align: center;
-	overflow: hidden;
-	float: right;
-	height:100% !important;
-	background-color:#F7F7F7;
-}
-
-.taxLiabilityBox {
-	background-color:#F7F7F7;
-	padding: 10px;
-}
-
-#section-content {
-    -webkit-print-color-adjust: exact !important;
-  }
-
-  }
 @page { size: auto;  margin: 0mm; }
 
 /* REPORT HEADERS --------------*/
@@ -1396,6 +1374,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     transform: translateY(-50%);
 	color: #fff;
 	text-align:center;
+}
+
+
+.beneficiaries {
+	font-size:18px;
+    line-height: 24px;
+    margin-top: 14px;
+	margin-left: 16px;
+	color: #ffffff;
 }
 
 * {

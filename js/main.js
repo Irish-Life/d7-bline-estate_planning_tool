@@ -787,7 +787,7 @@ function saveBeneficiary(number, name, age, reliefs, currentAssets, threshold, a
 		var tableHolder = '<div class="row saved-beneficiary" id="beneficiary-'+number+'"><div class="col-lg-8 col-sm-8 col-xs-12 col-lg-offset-2 col-sm-offset-2"><div class="saved-heading">\
 					<div class="row">\
 						<div class="col-lg-8 col-sm-8 col-xs-8">\
-						<p class="beneficiaries">Beneficiary - <span id="benDetailsName">'+name+'</span></p>\
+						<p style="color:#ffffff !important" class="beneficiaries">Beneficiary - <span id="benDetailsName" style="color:#ffffff !important">'+name+'</span></p>\
 						</div>\
 						<div class="col-lg-4 col-sm-8 col-xs-8">\
 						<!-- <div id="edit-user-'+number+'" class="edit-user edit">Edit</div>-->\
