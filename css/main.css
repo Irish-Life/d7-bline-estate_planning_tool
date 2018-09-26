@@ -519,7 +519,7 @@ table, th, td {
 
 .report-title__desc {
 	font-size:16px;
-	font-weight: 800;
+	text-align: center;
 }
 
 .report-subtitle {
@@ -540,6 +540,10 @@ table, th, td {
 	font-size: 14px;
 }
 
+.tight-text {
+	line-height: 1.6;
+	margin: 0 0 8px 0 !important;
+}
 
 .report-assumptions > li {
 	font-size: 14px;
@@ -1186,6 +1190,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block!important;
     width: 100% !important;}
 
+.printButtonText {
+	margin-top: 2em;
+}
+
 @media print {
  	#printReport, .progressBar, .hideOnPrint {
 	  display:none;
@@ -1241,6 +1249,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 		background-color:#f8f8fb !important;
 	}
 
+	.stat-box__liability {
+		position: relative;
+		top: -50px;
+	}
 
 	#options-container {
 		width: 100%;

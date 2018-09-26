@@ -491,6 +491,7 @@ function estate_planning_tool_contents() {
 			<div class="pagebreak"> </div>
 	<!-- Page 1 -->
 			<div class="cover-page">
+
 			<h1 class="report-title">Estate Planning Report</h1>
 
 			<img src="https://www.irishlife.ie/sites/retail/files/estate-planner/images/estate-planner-cover-page.PNG" class="cover-page-img" style="width:100%; margin: 20px 0px 20px 0px;"/>
@@ -588,7 +589,7 @@ function estate_planning_tool_contents() {
 
 			<div class="row taxLiabilityBox">
 			  <div class="col-sm-6"><p class="small-text">Each beneficiary\'s estimated Tax Liability is shown above, giving a total Tax Liability of </div>
-			  <div class="col-sm-3 stat-box" style="float:right;margin-bottom:30px">€<span class="reportTotalTaxLiability"></span></div>
+			  <div class="col-sm-3 stat-box stat-box__liability" style="float:right;">€<span class="reportTotalTaxLiability"></span></div>
 			</div>
 
 		<div class="header-bg">
@@ -728,7 +729,7 @@ function estate_planning_tool_contents() {
 				SUPPORTING INFORMATION
 			</div>
 			</div>
-			<div id="supporting-information">
+			<div id="supporting-information" style="line-height: 1;">
 			<br>
 			<p class="sub-heading">Capital Acquisitions Tax (CAT)</p>
 			<p>Capital Acquisitions Tax (CAT) is a tax levied on the receipt of gifts and inheritances. CAT comprises two separate taxes - a Gift Tax payable on lifetime gifts and an Inheritance Tax payable on inheritances received on death. It is the person receiving the gift or inheritance who is liable to CAT and not the person or estate providing the benefit.</p>
@@ -800,7 +801,7 @@ function estate_planning_tool_contents() {
 			</p>
 
 			<div class="pagebreak"> </div>
-			<p class="sub-heading" style="margin-top: 1em">Aggregation</p>
+			<p class="sub-heading">Aggregation</p>
 			<p>Under the current aggregation rules all benefits from Group 1 will be added together with an overall threshold of <b>€310,000</b>. Benefits from Group 2 members (brother, sister, grandparent etc) will be added together for the purpose of the <b>€32,500</b> threshold, and benefits from Group 3 members (strangers) for the purpose of the €16,250 threshold. So in effect a beneficiary can potentially receive up to <b>€358,750</b> tax-free if the benefits come through different "groups".</p>
 
 			<p class="sub-heading">Relief’s and Exemptions</p>
@@ -814,26 +815,26 @@ function estate_planning_tool_contents() {
 			</div>
 			<div class="row report-subtext" style="padding: 5px;">
 			<div class="col-sm-4" class="headings">Spouse / Civil Partner</div>
-			<div class="col-sm-8"><p>Gifts or inheritances received by one spouse / civil partner from the other are totally exempt from CAT.</p></div>
+			<div class="col-sm-8"><p class="tight-text">Gifts or inheritances received by one spouse / civil partner from the other are totally exempt from CAT.</p></div>
 
 
 			<div class="col-sm-4" class="headings">Agricultural Relief</div>
-			<div class="col-sm-8"><p>The value of farmland, buildings and stock can be reduced by 90% where the beneficiary is a qualifying farmer and holds the property for a minimum of 6 years.</p></div>
+			<div class="col-sm-8"><p class="tight-text">The value of farmland, buildings and stock can be reduced by 90% where the beneficiary is a qualifying farmer and holds the property for a minimum of 6 years.</p></div>
 
 
 			<div class="col-sm-4" class="headings">Business Relief</div>
-			<div class="col-sm-8"><p>Provides a similar reduction of 90% in the value of certain businesses or private companies, where both the business and the beneficiary meet the qualifying conditions.</p></div>
+			<div class="col-sm-8"><p class="tight-text">Provides a similar reduction of 90% in the value of certain businesses or private companies, where both the business and the beneficiary meet the qualifying conditions.</p></div>
 
 
 			<div class="col-sm-4"  class="headings">Family Home</div>
-			<div class="col-sm-8"><p>Exemption from Gift and Inheritance Tax may be available on the value of certain dwellings where both the donor and beneficiary satisfy certain conditions. The donor has to be living in the property at the date of his or her death and the beneficiaries must meet all of the following conditions:</p>
+			<div class="col-sm-8"><p class="tight-text">Exemption from Gift and Inheritance Tax may be available on the value of certain dwellings where both the donor and beneficiary satisfy certain conditions. The donor has to be living in the property at the date of his or her death and the beneficiaries must meet all of the following conditions:</p>
 					<li>Have occupied the house as his sole or main dwelling for three years prior to the date of the gift or inheritance,</li
 					<li>At the date of the gift or inheritance does not hold an interest in any other dwelling house either in Ireland or outside of the state,</li>
 					<li>Continue to occupy the house as his sole or main residence for 6 years after the date of the gift of inheritance.</li></div>
 
 
 			<div class="col-sm-4"  class="headings">Life Assurance Relief</div>
-			<div class="col-sm-8"><p>The proceeds of life assurance policies, where the plan was effected specifically for the payment of Inheritance Tax or the tax payable on the value of an ARF inherited by a child over the age of 21, will not be subject to Inheritance Tax – provided the money is actually used to pay the relevant tax bills.</p></div>
+			<div class="col-sm-8"><p div class="tight-text">The proceeds of life assurance policies, where the plan was effected specifically for the payment of Inheritance Tax or the tax payable on the value of an ARF inherited by a child over the age of 21, will not be subject to Inheritance Tax – provided the money is actually used to pay the relevant tax bills.</p></div>
 
 			</div>
 
