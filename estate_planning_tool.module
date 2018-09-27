@@ -811,26 +811,26 @@ function estate_planning_tool_contents() {
 			<p>The main reliefs and exemptions are:</p>
 			</div>
 			<div class="row report-subtext" style="padding: 5px;">
-			<div class="col-sm-4" class="headings">Spouse / Civil Partner</div>
-			<div class="col-sm-8"><p class="tight-text">Gifts or inheritances received by one spouse / civil partner from the other are totally exempt from CAT.</p></div>
+			<div class="col-sm-4" class="headings" style="text-decoration:underline">Spouse / Civil Partner</div>
+			<div class="col-sm-8"><p class="tight-text">Inheritances received by one spouse / civil partner from the other are totally exempt from CAT.</p></div>
 
 
-			<div class="col-sm-4" class="headings">Agricultural Relief</div>
+			<div class="col-sm-4" class="headings" style="text-decoration:underline">Agricultural Relief</div>
 			<div class="col-sm-8"><p class="tight-text">The value of farmland, buildings and stock can be reduced by 90% where the beneficiary is a qualifying farmer and holds the property for a minimum of 6 years.</p></div>
 
 
-			<div class="col-sm-4" class="headings">Business Relief</div>
+			<div class="col-sm-4" class="headings" style="text-decoration:underline">Business Relief</div>
 			<div class="col-sm-8"><p class="tight-text">Provides a similar reduction of 90% in the value of certain businesses or private companies, where both the business and the beneficiary meet the qualifying conditions.</p></div>
 
 
-			<div class="col-sm-4"  class="headings">Family Home</div>
-			<div class="col-sm-8"><p class="tight-text">Exemption from Gift and Inheritance Tax may be available on the value of certain dwellings where both the donor and beneficiary satisfy certain conditions. The donor has to be living in the property at the date of his or her death and the beneficiaries must meet all of the following conditions:</p>
-					<li>Have occupied the house as his sole or main dwelling for three years prior to the date of the gift or inheritance,</li
-					<li>At the date of the gift or inheritance does not hold an interest in any other dwelling house either in Ireland or outside of the state,</li>
-					<li>Continue to occupy the house as his sole or main residence for 6 years after the date of the gift of inheritance.</li></div>
+			<div class="col-sm-4"  class="headings" style="text-decoration:underline">Family Home</div>
+			<div class="col-sm-8"><p class="tight-text">Exemption from Inheritance Tax may be available on the value of certain dwellings where both the donor and beneficiary satisfy certain conditions. The donor has to be living in the property at the date of his or her death and the beneficiaries must meet all of the following conditions:</p>
+					<li>Have occupied the house as his sole or main dwelling for three years prior to the date of the inheritance,</li
+					<li>At the date of the inheritance does not hold an interest in any other dwelling house either in Ireland or outside of the state,</li>
+					<li>Continue to occupy the house as his sole or main residence for 6 years after the date of the inheritance.</li></div>
 
 
-			<div class="col-sm-4"  class="headings">Life Assurance Relief</div>
+			<div class="col-sm-4"  class="headings" style="text-decoration:underline">Life Assurance Relief</div>
 			<div class="col-sm-8"><p div class="tight-text">The proceeds of life assurance policies, where the plan was effected specifically for the payment of Inheritance Tax or the tax payable on the value of an ARF inherited by a child over the age of 21, will not be subject to Inheritance Tax – provided the money is actually used to pay the relevant tax bills.</p></div>
 
 			</div>
@@ -948,7 +948,7 @@ function estate_planning_tool_contents() {
 				<li>replaces the house and reinvests the proceeds in another dwelling house, and occupies both properties for at least 6 years of the 7 years from the date of the inheritance.</li>
 			</ol>
 			<div class="please-note"><p><b><u>PLEASE NOTE</u></b></p>
-			<p>As this report is dealing with your beneficiaries liability to Inheritance Tax, the information above only deals with the conditions for relief from inheritance tax. The conditions to avail of Dwelling House Exemption in respect of gifts are very different. They can be obtained from your Adviser.</p>
+			<p>As this report is dealing with your beneficiaries liability to Inheritance Tax, the information above only deals with the conditions for relief from inheritance tax. The conditions to avail of family home exemption in respect of gifts are very different.</p>
 			</div>
 			</div>
 

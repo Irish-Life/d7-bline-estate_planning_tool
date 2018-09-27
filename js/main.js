@@ -2096,7 +2096,7 @@ for (var i = 0; i < numbers.length; i++)
     total*= Number(numbers[i].innerText);
 }
 
-	document.getElementById("block-estate-planning-tool-estate-planning-tool").firstElementChild.innerHTML = "";
+
 
 //document.getElementById("result").innerText ="\u20AC" + total;
 
