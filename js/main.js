@@ -1968,7 +1968,9 @@ var reportGifts = '';
 
 var totalInheritances=0;
 var totalTaxable=0;
-$('#today').html(d.toDateString().substring(4));
+var locale = "en-us";
+var month = d.toLocaleString(locale, { month: "long" });
+$('#today').html(month + d.toDateString().substring(7));
 
 updateReportTotals();
 
@@ -2093,6 +2095,8 @@ for (var i = 0; i < numbers.length; i++)
 {
     total*= Number(numbers[i].innerText);
 }
+
+	document.getElementById("block-estate-planning-tool-estate-planning-tool").firstElementChild.innerHTML = "";
 
 //document.getElementById("result").innerText ="\u20AC" + total;
 
