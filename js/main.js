@@ -2096,7 +2096,9 @@ for (var i = 0; i < numbers.length; i++)
 
 //document.getElementById("result").innerText ="\u20AC" + total;
 
-
+// if(document.getElementsByClassName("saved-beneficiary").length > 2) {
+// 	$("#beneficiary-3")
+// }
 
 $( "#reportBeneficiariesTable tbody" ).append("<tr style=\"border-top: 1px solid #000;margin-top: 12px;height: 40px;\"><td colspan=\"2\"></td><td>€" +
 numberWithCommas(totalInheritances)+"</td><td>€" +

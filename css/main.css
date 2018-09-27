@@ -316,6 +316,7 @@ table, th, td {
 .saved-beneficiary {
 	margin-bottom:40px;
 	cursor:pointer;
+	page-break-inside: avoid;
 }
 
 .saved-body {
