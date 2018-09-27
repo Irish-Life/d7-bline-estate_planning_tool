@@ -495,8 +495,8 @@ function estate_planning_tool_contents() {
 			<h1 class="report-title">Estate Planning Report</h1>
 
 			<img src="https://www.irishlife.ie/sites/retail/files/estate-planner/images/estate-planner-cover-page.PNG" class="cover-page-img" style="width:100%; margin: 20px 0px 20px 0px;"/>
-			<p class="report-subtitle">For <span class="reportNames" ></span></p>
-			<p class="report-subtitle"><span>On <span id="today">12 June 2015</span></p>
+			<p class="report-subtitle">For <br /><span class="reportNames" ></span></p>
+			<p class="report-subtitle">On <br /><span id="today">12 June 2015</span></p>
 			<br>
 			<p class="report-title__desc">
 			This report shows the amount of tax that would have to be paid by the people who will inherit your estate when you die. It can help you plan your estate in the most tax efficient way possible. It is important that you have given us all your financial details for the report to be as accurate as possible.
