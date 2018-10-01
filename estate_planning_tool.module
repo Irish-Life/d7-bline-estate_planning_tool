@@ -485,7 +485,7 @@ function estate_planning_tool_contents() {
 				<li>Click the blue Save Button</li>
 				<li>Save the PDF to your preferred folder</li>
 				</i>
-			</p>
+			
 		</div>
 
 
@@ -556,7 +556,7 @@ function estate_planning_tool_contents() {
 						<td> <span class="taxableInheritance">taxableInheritance</span></td>
 						<td> <span class="reportTotalTaxLiability">taxLiability</span></td>
 			</table>
-			<div >
+			<div class="info-box">
 			<p class="small-text">*Group thresholds available from 11<sup>th</sup> October 2016</p>
 			<p class="small-text">**Where a child (aged 21 and over) inherits the clients ARF / AMRF this amount will be subject to income tax at a rate of 30%. This amount is included in the childs tax liability as noted above.</p>
 			</div>

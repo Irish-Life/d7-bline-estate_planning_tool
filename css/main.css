@@ -619,6 +619,11 @@ table, th, td {
 	margin-bottom: 5px;
 }
 
+.info-box p {
+	margin-bottom: 5px;
+}
+
+
 /* End JB styles */
 .estate-value-liability-box {
 	text-align: center;
