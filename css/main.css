@@ -566,13 +566,18 @@ table, th, td {
 }
 
 .tight-text {
-	line-height: 1.6;
+	line-height: 1.4;
 	margin: 0 0 8px 0 !important;
 }
 
 .report-assumptions > li {
 	font-size: 14px;
-	line-height: 1.8;
+	line-height: 1.4;
+	margin: 0 2em;
+}
+
+#supporting-information > p {
+	line-height: 1.2;
 }
 
 .report-table {
@@ -581,10 +586,15 @@ table, th, td {
 
 .report-table__list {
 	font-size: 14px;
+	margin-bottom: 5px;
 }
 
 .report-table__list li {
-	padding: 6px 0;
+	padding: 4px 0;
+}
+
+.report-table__list p {
+	margin-bottom: 5px;
 }
 
 .report-subtext {
@@ -593,11 +603,20 @@ table, th, td {
 
 .small-text {
 	font-size: 14px;
+	line-height: 1.2;
 }
 
 
 #footer-wrapper {
 	background: transparent !important;
+}
+
+#appendix-iii p {
+	margin-bottom: 5px;
+}
+
+#appendix-iv p {
+	margin-bottom: 5px;
 }
 
 /* End JB styles */
@@ -664,7 +683,7 @@ p.sub-heading-indent{
 #options-container {
     width: 100%;
     height: 225px;
-    margin: 2em auto;
+    margin: 1em auto;
     padding: 10px;
 }
 
@@ -1231,8 +1250,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 	#the-print-report {
 		display: block;
-		margin: 0 2em;
- 	}
+	}
 
 	.beneficiaries {
 		color: #ffffff;

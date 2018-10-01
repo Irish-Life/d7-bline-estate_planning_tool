@@ -477,20 +477,21 @@ function estate_planning_tool_contents() {
 			<div id="report" class="col-lg-12 col-sm-8 col-xs-8 col-lg-offset-0 col-sm-offset-2 col-xs-offset-2">
 			<div class="printButton" onclick="window.print();">Click here to Print Report</div>
 			<div class="printButtonText">
-			<i class="small-text">
+				<i class="small-text">
 
-			<li>Click the Print Report Button.</li>
-			<li>In the right column, press Change to change the document type you would like to save the report as </li>
-			<li>Under Print Destinations, choose Save as PDF</li>
-			<li>Click the blue Save Button</li>
-			<li>Save the PDF to your preferred folder</li>
-			</i>
-			</p></div>
+				<li>Click the Print Report Button.</li>
+				<li>In the right column, press Change to change the document type you would like to save the report as </li>
+				<li>Under Print Destinations, choose Save as PDF</li>
+				<li>Click the blue Save Button</li>
+				<li>Save the PDF to your preferred folder</li>
+				</i>
+			</p>
+		</div>
 
 
 			<div class="pagebreak"> </div>
 	<!-- Page 1 -->
-			<div class="cover-page">
+		<div class="cover-page">
 
 			<h1 class="report-title">Estate Planning Report</h1>
 
@@ -503,7 +504,8 @@ function estate_planning_tool_contents() {
 			</p>
 			</div>
 
-			</div></div>
+			</div>
+		</div>
 
 			<div class="pagebreak"> </div>
 
@@ -576,7 +578,7 @@ function estate_planning_tool_contents() {
 					<td id="result"></td>
 				</tr>
 			</thead>
-			</table> -->
+			</table> 
 			<div class="row">
 			<div class="taxOnArfTable" style="height:15%;width:100%; margin-left:10px;">
 			<div style="float:left; width: 100%; margin-top: 10px; margin-bottom: 10px;">
@@ -585,7 +587,7 @@ function estate_planning_tool_contents() {
 			</div>
 
 			</div>
-			</div>
+			</div>-->
 
 			<div class="row taxLiabilityBox">
 			  <div class="col-sm-6"><p class="small-text">Each beneficiary\'s estimated Tax Liability is shown above, giving a total Tax Liability of </div>
@@ -600,7 +602,7 @@ function estate_planning_tool_contents() {
 		</div>
 
 		<div class="row">
-			<p style="margin: 10px;"> There are various options that can be used to deal with your beneficiaries anticipated inheritance tax liability. The most suitable solution will depend on the factual information you have provided.</p>
+			<p style="margin:0 10px;"> There are various options that can be used to deal with your beneficiaries anticipated inheritance tax liability. The most suitable solution will depend on the factual information you have provided.</p>
 		</div>
 		<div id="options-container">
 			<div id="do-nothing-box" style="margin: 5px; width: 40%; height:100%; padding:1em">
@@ -670,36 +672,39 @@ function estate_planning_tool_contents() {
 					</tr>
 				</tbody>
 			</table>
-	</div>
+			</div>
+		</div>
 
-
-			<div class="header-bg"  style="margin-top: 6em;">
+	
+			<div class="header-bg">
 			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
 			<div class="header-text">
-				WE HAVE BASED THE REPORT ON THE <br> FOLLOWING ASSUMPTIONS
+				WE HAVE BASED THE REPORT ON THE<br> FOLLOWING ASSUMPTIONS
 			</div>
 
 			</div>
-
-			<ul id="assumptions" class="report-assumptions">
-			  <li>We understand that your estate will be divided between your beneficiaries as shown</li>
-			  <li>Where the children / beneficiaries have previously received gifts or inheritances from other sources since 5th December 1991 this will have reduced their available Group tax free threshold.</li>
-			  <li>If the family home exemption, business relief or farm relief applies these are subject to the conditions being met for each of these reliefs. Full details of the conditions for these reliefs are available in the Appendices.</li>
-			  <li>The following only applies where there is an ARF / AMRF in the estate.</li>
-			  <li>Where the children are over the age of 21 when they inherit the proceeds of the ARF / AMRF, this amount will be subject to income tax at a rate of 30%.</li>
-			  <li>Where the children are not over the age of 21 when they inherit the proceeds of the ARF / AMRF, this amount will be subject to inheritance tax at a rate of 33%.</li>
-			  <li>Where the beneficiaries are not your children they will be subject to inheritance tax at a rate of 33% when they inherit the proceeds of the ARF / AMRF.</li>
-			  <li>The calculator assumes that the ARF / AMRF amount keyed is a total of any Gross Amount being inherited by a child + any Net Amount being inherited by a person other than a child.</li>
-			</ul>
-
+		<div class="row">
+				<div class="col-sm-8">
+			
+					<ul id="assumptions" class="report-assumptions">
+					<li>We understand that your estate will be divided between your beneficiaries as shown</li>
+					<li>Where the children / beneficiaries have previously received gifts or inheritances from other sources since 5th December 1991 this will have reduced their available Group tax free threshold.</li>
+					<li>If the family home exemption, business relief or farm relief applies these are subject to the conditions being met for each of these reliefs. Full details of the conditions for these reliefs are available in the Appendices.</li>
+					<li>The following only applies where there is an ARF / AMRF in the estate.</li>
+					<li>Where the children are over the age of 21 when they inherit the proceeds of the ARF / AMRF, this amount will be subject to income tax at a rate of 30%.</li>
+					<li>Where the children are not over the age of 21 when they inherit the proceeds of the ARF / AMRF, this amount will be subject to inheritance tax at a rate of 33%.</li>
+					<li>Where the beneficiaries are not your children they will be subject to inheritance tax at a rate of 33% when they inherit the proceeds of the ARF / AMRF.</li>
+					<li>The calculator assumes that the ARF / AMRF amount keyed is a total of any Gross Amount being inherited by a child + any Net Amount being inherited by a person other than a child.</li>
+					</ul>
+				
 			<div id="breaking-line "style="background-color:#F7F7F7; height: 5px; width: 100%;"></div>
-
-			<div class="row">
-			<div style="padding:2em;"><p>Inheritance tax is due and payable on the valuation date of the inheritance, which will normally be very shortly after death. Unpaid tax attracts interest which is not tax deductible.</p>
+			
+			<p>Inheritance tax is due and payable on the valuation date of the inheritance, which will normally be very shortly after death. Unpaid tax attracts interest which is not tax deductible.</p>
 
 			<p>This illustration is based on the information you have given us and on our understanding of current legislation and Revenue practice. It is important that you provide all your financial details as information not included cannot be taken into account in providing advice.</p>
 			</div>
-			</div>
+		
+		</div>
 
 
 
@@ -798,40 +803,41 @@ function estate_planning_tool_contents() {
 			</p>
 
 			<div class="pagebreak"> </div>
+
 			<p class="sub-heading sub-heading__agg">Aggregation</p>
-			<p>Under the current aggregation rules all benefits from Group 1 will be added together with an overall threshold of <b>€310,000</b>. Benefits from Group 2 members (brother, sister, grandparent etc) will be added together for the purpose of the <b>€32,500</b> threshold, and benefits from Group 3 members (strangers) for the purpose of the €16,250 threshold. So in effect a beneficiary can potentially receive up to <b>€358,750</b> tax-free if the benefits come through different "groups".</p>
+			<p class="small-text">Under the current aggregation rules all benefits from Group 1 will be added together with an overall threshold of <b>€310,000</b>. Benefits from Group 2 members (brother, sister, grandparent etc) will be added together for the purpose of the <b>€32,500</b> threshold, and benefits from Group 3 members (strangers) for the purpose of the €16,250 threshold. So in effect a beneficiary can potentially receive up to <b>€358,750</b> tax-free if the benefits come through different "groups".</p>
 
 			<p class="sub-heading">Relief’s and Exemptions</p>
-			<p> Certain reliefs and exemptions apply to certain types of assets. These have been introduced over the years primarily to encourage private enterprise and to avoid the forced sale of a family farm, business or the family home in certain circumstances.</p>
+			<p class="small-text"> Certain reliefs and exemptions apply to certain types of assets. These have been introduced over the years primarily to encourage private enterprise and to avoid the forced sale of a family farm, business or the family home in certain circumstances.</p>
 
 
 
 
 
-			<p>The main reliefs and exemptions are:</p>
-			</div>
+			<p class="small-text">The main reliefs and exemptions are:</p>
+			
 			<div class="row report-subtext" style="padding: 5px;">
 			<div class="col-sm-4" class="headings" style="text-decoration:underline">Spouse / Civil Partner</div>
-			<div class="col-sm-8"><p class="tight-text">Inheritances received by one spouse / civil partner from the other are totally exempt from CAT.</p></div>
+			<div class="col-sm-8"><p class="small-text">Inheritances received by one spouse / civil partner from the other are totally exempt from CAT.</p></div>
 
 
 			<div class="col-sm-4" class="headings" style="text-decoration:underline">Agricultural Relief</div>
-			<div class="col-sm-8"><p class="tight-text">The value of farmland, buildings and stock can be reduced by 90% where the beneficiary is a qualifying farmer and holds the property for a minimum of 6 years.</p></div>
+			<div class="col-sm-8"><p class="small-text">The value of farmland, buildings and stock can be reduced by 90% where the beneficiary is a qualifying farmer and holds the property for a minimum of 6 years.</p></div>
 
 
 			<div class="col-sm-4" class="headings" style="text-decoration:underline">Business Relief</div>
-			<div class="col-sm-8"><p class="tight-text">Provides a similar reduction of 90% in the value of certain businesses or private companies, where both the business and the beneficiary meet the qualifying conditions.</p></div>
+			<div class="col-sm-8"><p class="small-text">Provides a similar reduction of 90% in the value of certain businesses or private companies, where both the business and the beneficiary meet the qualifying conditions.</p></div>
 
 
 			<div class="col-sm-4"  class="headings" style="text-decoration:underline">Family Home</div>
-			<div class="col-sm-8"><p class="tight-text">Exemption from Inheritance Tax may be available on the value of certain dwellings where both the donor and beneficiary satisfy certain conditions. The donor has to be living in the property at the date of his or her death and the beneficiaries must meet all of the following conditions:</p>
-					<li>Have occupied the house as his sole or main dwelling for three years prior to the date of the inheritance,</li
-					<li>At the date of the inheritance does not hold an interest in any other dwelling house either in Ireland or outside of the state,</li>
-					<li>Continue to occupy the house as his sole or main residence for 6 years after the date of the inheritance.</li></div>
+			<div class="col-sm-8"><p class="small-text">Exemption from Inheritance Tax may be available on the value of certain dwellings where both the donor and beneficiary satisfy certain conditions. The donor has to be living in the property at the date of his or her death and the beneficiaries must meet all of the following conditions:</p>
+					<li class="small-text">Have occupied the house as his sole or main dwelling for three years prior to the date of the inheritance,</li>
+					<li class="small-text">At the date of the inheritance does not hold an interest in any other dwelling house either in Ireland or outside of the state,</li>
+					<li class="small-text">Continue to occupy the house as his sole or main residence for 6 years after the date of the inheritance.</li></div>
 
-
+				<br />
 			<div class="col-sm-4"  class="headings" style="text-decoration:underline">Life Assurance Relief</div>
-			<div class="col-sm-8"><p div class="tight-text">The proceeds of life assurance policies, where the plan was effected specifically for the payment of Inheritance Tax or the tax payable on the value of an ARF inherited by a child over the age of 21, will not be subject to Inheritance Tax – provided the money is actually used to pay the relevant tax bills.</p></div>
+			<div class="col-sm-8"><p div class="small-text">The proceeds of life assurance policies, where the plan was effected specifically for the payment of Inheritance Tax or the tax payable on the value of an ARF inherited by a child over the age of 21, will not be subject to Inheritance Tax – provided the money is actually used to pay the relevant tax bills.</p></div>
 
 			</div>
 
@@ -842,10 +848,10 @@ function estate_planning_tool_contents() {
 			<div id="breaking-line "style="background-color:#F7F7F7; height: 5px; width: 100%;"></div>
 
 			<p class="sub-heading">Making a Will</p>
-			<p>A valid Will, reflecting your current wishes, is a vital part of the estate planning process.  If the provisions of your Will are not in line with the intentions outlined in the information given, this report may not be appropriate. If you die without leaving a Will your estate will be divided in accordance with the Succession Act (see Appendix I).</p>
-			<p>You should talk to a solicitor if you do not have a valid Will or if your Will needs to be updated.</p>
-			<p>While our recommendation is based on our understanding of current legislation and Revenue practice we recommend you seek professional legal and tax advice to ensure that any arrangement you decide to put in place is appropriate to your individual circumstances.</p>
-
+			<p class="small-text">A valid Will, reflecting your current wishes, is a vital part of the estate planning process.  If the provisions of your Will are not in line with the intentions outlined in the information given, this report may not be appropriate. If you die without leaving a Will your estate will be divided in accordance with the Succession Act (see Appendix I).</p>
+			<p class="small-text">You should talk to a solicitor if you do not have a valid Will or if your Will needs to be updated.</p>
+			<p class="small-text">While our recommendation is based on our understanding of current legislation and Revenue practice we recommend you seek professional legal and tax advice to ensure that any arrangement you decide to put in place is appropriate to your individual circumstances.</p>
+		</div>
 
 			<div id="breaking-line "style="background-color:#F7F7F7; height: 5px; width: 100%;"></div>
 
@@ -859,12 +865,12 @@ function estate_planning_tool_contents() {
 
 
 			<div id="appendix-i">
-			<p>	When a person dies all their property devolves to their <b>“personal representatives"</b> to transfer to the individual’s successors.  The way property is transferred will depend on whether or not the deceased had made a <b>Will</b>. If there is a valid Will the personal representatives <b>"the executors"</b> distribute the assets in accordance with the terms of the Will. </p>
-			<p> If there is no Will the individual is said to have died <b>“intestate”</b> and the property is distributed by the personal representatives <b>“administrators”</b> in accordance with the provisions of the <b>Succession Act 1965.</b></p>
-			<p>The Succession Act provides a legal spouse, a registered civil partner and children with certain minimum legal entitlements as follows:</p>
+			<p class="small-text">	When a person dies all their property devolves to their <b>“personal representatives"</b> to transfer to the individual’s successors.  The way property is transferred will depend on whether or not the deceased had made a <b>Will</b>. If there is a valid Will the personal representatives <b>"the executors"</b> distribute the assets in accordance with the terms of the Will. </p>
+			<p class="small-text"> If there is no Will the individual is said to have died <b>“intestate”</b> and the property is distributed by the personal representatives <b>“administrators”</b> in accordance with the provisions of the <b>Succession Act 1965.</b></p>
+			<p class="small-text">The Succession Act provides a legal spouse, a registered civil partner and children with certain minimum legal entitlements as follows:</p>
 
 			<table id="no-will" class="report-table">
-			<p><b>NO Will</b> - <i> where a person dies "intestate"</i></p>
+			<p class="small-text"><b>NO Will</b> - <i> where a person dies "intestate"</i></p>
 			<tr>
 				<td>Spouse or civil partner  and no children</td>
 				<td>Spouse or civil partner entitled to full estate.</td>
@@ -888,7 +894,7 @@ function estate_planning_tool_contents() {
 			</tr>
 			</table>
 
-			<p>Where an individual dies "intestate" leaving neither spouse, civil partner nor children, his assets will pass to parents, if his parents are deceased to his brothers and sisters, otherwise to wider family - the Act provides a hierarchical list.</p>
+			<p class="small-text">Where an individual dies "intestate" leaving neither spouse, civil partner nor children, his assets will pass to parents, if his parents are deceased to his brothers and sisters, otherwise to wider family - the Act provides a hierarchical list.</p>
 
 			<table id="will" class="report-table">
 			<p><b>Will</b> -<i>a "testate" death (Entitlement regardless of provisions of will)</i></p>
@@ -904,11 +910,11 @@ function estate_planning_tool_contents() {
 			</tr>
 			</table>
 
-			<p>An individual can make a Will any way he wants, but Sections 111 and 111A of the Succession Act give a surviving spouse or civil partner certain legal rights regardless of what the Will provides.</p>
+			<p class="small-text">An individual can make a Will any way he wants, but Sections 111 and 111A of the Succession Act give a surviving spouse or civil partner certain legal rights regardless of what the Will provides.</p>
 
-			<p>Children do not have a right to a particular share of the estate under a Will. However, Section 117 of the Act gives a child the right to apply to the Court for a share of the estate under a Will if in the Court’s opinion “the testator has failed in his moral duty to make proper provision for the child in accordance with his means.”</p>
+			<p class="small-text">Children do not have a right to a particular share of the estate under a Will. However, Section 117 of the Act gives a child the right to apply to the Court for a share of the estate under a Will if in the Court’s opinion “the testator has failed in his moral duty to make proper provision for the child in accordance with his means.”</p>
 
-			<p>It is worth mentioning that while this right of the child to apply to the Courts will not affect the portion of the estate to which a legal spouse has a statutory right, it could impact on the amount of the estate to which a registered civil partner is entitled.  </p>
+			<p class="small-text">It is worth mentioning that while this right of the child to apply to the Courts will not affect the portion of the estate to which a legal spouse has a statutory right, it could impact on the amount of the estate to which a registered civil partner is entitled.  </p>
 			</div>
 
 			<div class="pagebreak"> </div>
@@ -922,7 +928,7 @@ function estate_planning_tool_contents() {
 
 			<div id="appendix-ii">
 
-			<p>The value of a "dwelling house" taken on or after 1st December 1999 may be exempt from Inheritance Tax, in the hands of the beneficiary provided certain qualifying conditions are met.
+			<p class="small-text">The value of a "dwelling house" taken on or after 1st December 1999 may be exempt from Inheritance Tax, in the hands of the beneficiary provided certain qualifying conditions are met.
 			<b>"Dwelling House"</b>, for the purpose of this exemption, means a building or part of a building with up to one acre of land that was used or was suitable for use as a dwelling.
 						To obtain the exemption from inheritance tax the disponer and the beneficiary must meet certain conditions.
 
@@ -935,12 +941,9 @@ function estate_planning_tool_contents() {
 			  <li>He or she must not be beneficially entitled to any interest in any other dwelling house at the date of the inheritance, this includes the inheritance of a second property from the disponer,</li>
 			  <li>He or she must continue to both own and occupy the dwelling house as his or her only or main residence throughout the period of 6 years following the date of the inheritance*.</li>
 			</ol>
-			<p>Where the dwelling house directly or indirectly replaced other property owned by the disponer, the 3 year period in condition a) will be satisfied if the beneficiary occupied both properties for a total of 3 of the 4 years prior to the date of the inheritance.
+			<p class="small-text">Where the dwelling house directly or indirectly replaced other property owned by the disponer, the 3 year period in condition a) will be satisfied if the beneficiary occupied both properties for a total of 3 of the 4 years prior to the date of the inheritance.
 			In the case of <b>both the disponer and the beneficiary</b> if either party ceased to occupy the dwelling house as a result of his or her mental or physical infirmity, this period will be taken into account for the purposes of the 3 / 6 year rule.</p>
-			<p style="
-    padding: 0px;
-    margin: 0px;
-"><i>* the exemption will not be withdrawn where condition c) above is breached in the following circumstances where the beneficiary:</i></p>
+			<p class="small-text"><i>* the exemption will not be withdrawn where condition c) above is breached in the following circumstances where the beneficiary:</i></p>
 			<ol class="appendix-ii-conditions-2">
 				<li>Does not occupy the house as a result of his or her mental or physical infirmity. This infirmity must be certified by a registered medical practitioner, or</li>
 				<li>does not occupy the house as a result of working abroad by consequence of any condition imposed by his or her employer requiring the beneficiary to work abroad to carry out the duties of his or her employment, or</li>
@@ -948,7 +951,7 @@ function estate_planning_tool_contents() {
 				<li>replaces the house and reinvests the proceeds in another dwelling house, and occupies both properties for at least 6 years of the 7 years from the date of the inheritance.</li>
 			</ol>
 			<div class="please-note"><p><b><u>PLEASE NOTE</u></b></p>
-			<p>As this report is dealing with your beneficiaries liability to Inheritance Tax, the information above only deals with the conditions for relief from inheritance tax. The conditions to avail of family home exemption in respect of gifts are very different.</p>
+			<p class="small-text">As this report is dealing with your beneficiaries liability to Inheritance Tax, the information above only deals with the conditions for relief from inheritance tax. The conditions to avail of family home exemption in respect of gifts are very different.</p>
 			</div>
 			</div>
 
@@ -964,18 +967,18 @@ function estate_planning_tool_contents() {
 
 			<div id="appendix-iii">
 
-			<p>For gifts and inheritances taken on or after 23rd January 1997 the taxable value of “relevant business” property is reduced by 90%.</p>
+			<p class="small-text">For gifts and inheritances taken on or after 23rd January 1997 the taxable value of “relevant business” property is reduced by 90%.</p>
 
 			<div id="breaking-line "style="background-color:#F7F7F7; height: 5px; width: 100%;"></div>
 
 			<p class="sub-heading">Company Shares:</p>
-			<p class="appendix-text">The definition of “relevant business property” includes unquoted shares and securities of Irish incorporated companies subject to certain conditions.</p>
-			<p class="appendix-sub">The company</p>
-			<p class="appendix-text">The company’s business must not consist wholly or mainly of any of the following excluded activities -<i> dealing in currencies, securities, stocks or shares, land or buildings, or making or holding of investments.</i></p>
+			<p class="small-text">The definition of “relevant business property” includes unquoted shares and securities of Irish incorporated companies subject to certain conditions.</p>
+			<p class="small-sub">The company</p>
+			<p class="small-text">The company’s business must not consist wholly or mainly of any of the following excluded activities -<i> dealing in currencies, securities, stocks or shares, land or buildings, or making or holding of investments.</i></p>
 
 
 			<p class="appendix-sub">The beneficiary</p>
-			<p class="appendix-text">	For the relief to apply the beneficiary must meet one of the following ownership/control tests:</p>
+			<p class="small-text">	For the relief to apply the beneficiary must meet one of the following ownership/control tests:</p>
 			<ol class="appendix-ii-conditions-2">
 				<li>The shares themselves or together with other shares in the company held in the absolute beneficial ownership of the beneficiary, give the beneficiary control of 25% of the voting power over all matters relating to the company,</li>
 				<p><b>or</b></p>
@@ -983,24 +986,24 @@ function estate_planning_tool_contents() {
 				<p><b>or</b></p>
 				<li>the beneficiary holds at least 10% of the issued capital of the company and has worked full time in the company for 5 years prior to the gift/inheritance.</li>
 			</ol>
-			<p class="appendix-text"><i>* Relatives of a person include his spouse, civil partner, children, mother, father, aunt, uncle and any children, grandchildren of any the forgoing. In addition all spouses of relatives are included for the purposes of determining control.
+			<p class="small-text"><i>* Relatives of a person include his spouse, civil partner, children, mother, father, aunt, uncle and any children, grandchildren of any the forgoing. In addition all spouses of relatives are included for the purposes of determining control.
 					Control includes - having over 50% of the voting power, or owning more than 50% of the shares or being in a position to control the board of directors.</i></p>
 
 			<div id="breaking-line "style="background-color:#F7F7F7; height: 5px; width: 100%;"></div>
 
 			<p class="sub-heading">Business Relief - unincorporated business.</p>
-			<p class="appendix-text">Relevant business property also includes property consisting of a business (Sole trader) or an interest in a business (share in a partnership). A business which is wholly or mainly concerned with<i> dealing in land, shares, securities or currencies or the making or holding of investments is excluded.</i>
+			<p class="small-text">Relevant business property also includes property consisting of a business (Sole trader) or an interest in a business (share in a partnership). A business which is wholly or mainly concerned with<i> dealing in land, shares, securities or currencies or the making or holding of investments is excluded.</i>
 				The relief will apply where the business or part of the business is transferred and not simply where an asset that had been part of the business is subject to CAT.
 			</p>
 
 			<div id="breaking-line "style="background-color:#F7F7F7; height: 5px; width: 100%;"></div>
 
 			<p class="sub-heading">General</p>
-			<p class="appendix-text">So far we have concentrated on the conditions that apply to the business and the beneficiary in order to qualify for Business Relief. There are some other general conditions worth noting:</p>
+			<p class="small-text">So far we have concentrated on the conditions that apply to the business and the beneficiary in order to qualify for Business Relief. There are some other general conditions worth noting:</p>
 			<p class="sub-heading">Disponer</p>
-			<p class="appendix-text">The property must have been owned by the disponer for a period of 5 years prior to a gift or 2 years in the case of an inheritance.</p>
+			<p class="small-text">The property must have been owned by the disponer for a period of 5 years prior to a gift or 2 years in the case of an inheritance.</p>
 			<p class="sub-heading">Clawback of Relief</p>
-			<p class="appendix-text">If within 6 years of the gift or the inheritance of business property:
+			<p class="small-text">If within 6 years of the gift or the inheritance of business property:
 				<ol class="appendix-ii-conditions-2">
 				<li>	the business ceases to qualify, or </li>
 				<li>the property is sold or compulsorily acquired and not replaced within one year with other business property
@@ -1018,8 +1021,8 @@ function estate_planning_tool_contents() {
 			</div>
 
 			<div id="appendix-iv">
-			<p>	This is a special relief given in respect of certain agricultural property taken by a "farmer". The relief is given by reducing the market value of the agricultural property by 90% for gifts and inheritances taken on or after 23rd January 1997.</p>
-			<p>The market value of the agricultural property as so reduced is then termed "agricultural value" in the Act and is substituted for market value in the calculation of tax.</p>
+			<p class="small-text">	This is a special relief given in respect of certain agricultural property taken by a "farmer". The relief is given by reducing the market value of the agricultural property by 90% for gifts and inheritances taken on or after 23rd January 1997.</p>
+			<p class="small-text">The market value of the agricultural property as so reduced is then termed "agricultural value" in the Act and is substituted for market value in the calculation of tax.</p>
 
 			<p class="sub-heading"><b>There are certain conditions attaching to this relief:</b></p>
 			<ul class="appendix-ii-conditions">
@@ -1032,18 +1035,18 @@ function estate_planning_tool_contents() {
 				<li> a relevant agricultural qualification or attain such a qualification within four years of the date of the gift or inheritance, and must farm the agricultural property for a period of not less than six years on a commercial basis with a view to realising a profit, <b>or</b></li>
 				<li> the beneficiary must spend not less than 50% of their normal working time farming the agricultural property for a period of not less than six years on a commercial basis with a view to realising a profit . Normal working time approximates to 40 hours per week.</li>
 			</ol>
-			<p>Where the beneficiary leases the agricultural property the individual to whom the property is leased must satisfy either condition a. or b. above.  </p>
+			<p class="small-text">Where the beneficiary leases the agricultural property the individual to whom the property is leased must satisfy either condition a. or b. above.  </p>
 			<p class="sub-heading"><b>The relief is withdrawn in certain circumstances:</b><p>
-			<p>If within 6 years of the ‘valuation date’ the beneficiary ceases to qualify as a farmer as outlined and does not lease the land to a lessee who will farm the land for the remainder of the 6 year period.
+			<p class="small-text">If within 6 years of the ‘valuation date’ the beneficiary ceases to qualify as a farmer as outlined and does not lease the land to a lessee who will farm the land for the remainder of the 6 year period.
 			</p>
-			<p>Or if within six years after the date of the gift or the inheritance lands are sold or compulsorily acquired in the lifetime of the donee or successor, and the agricultural property is not replaced within a year following a sale, or within 6 years following a compulsory acquisition where the land was compulsorily acquired on or after 25th March 2002.  </p>
-			<p>If the gift or inheritance consists of development land and is disposed of in the period commencing 6 years after the date of the gift / inheritance and ending 10 years after the date there will be a partial claw back of the relief. </p>
+			<p class="small-text">Or if within six years after the date of the gift or the inheritance lands are sold or compulsorily acquired in the lifetime of the donee or successor, and the agricultural property is not replaced within a year following a sale, or within 6 years following a compulsory acquisition where the land was compulsorily acquired on or after 25th March 2002.  </p>
+			<p class="small-text">If the gift or inheritance consists of development land and is disposed of in the period commencing 6 years after the date of the gift / inheritance and ending 10 years after the date there will be a partial claw back of the relief. </p>
 			</div>
 			</div>
+			<div class="pagebreak"></div>
 
 
-
-			<!---------------- Start Modal Content : JBissell 24/09/2018 --------------------------!>
+			<!---------------- Start Modal Content : JBissell 24/09/2018 -------------------------->
 			<div id="businessModalContent">
 	<h3>Business Relief</h3>
 	<br/>
