@@ -518,6 +518,8 @@ table, th, td {
 	background-color:  #A39B88 !important;
 	border: 2px solid #ffffff;
 	outline: 3px solid #A39B88;
+	position: relative;
+	top: -2em;
 }
 
 .report-title {

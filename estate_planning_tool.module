@@ -560,34 +560,7 @@ function estate_planning_tool_contents() {
 			<p class="small-text">*Group thresholds available from 11<sup>th</sup> October 2016</p>
 			<p class="small-text">**Where a child (aged 21 and over) inherits the clients ARF / AMRF this amount will be subject to income tax at a rate of 30%. This amount is included in the childs tax liability as noted above.</p>
 			</div>
-			<!-- <table id="taxOnArf" style="margin-left:0px; width:100%;">
-			<thead>
-				<tr>
-				<th colspan="4" text-align: center; background-color: #A39B88; color: #fff;>Tax on ARF / AMRF value inherited by your children over 21</th>
-				</tr>
-				<tr>
-					<th>Name of beneficiary</th>
-					<th>Value of ARF / AMRF</th>
-					<th>Tax Rate</th>
-					<th>Tax liability</th>
-				</tr>
-				<tr>
-					<td><span class="beneficiary-name"></td>
-					<td><span class="reportPensionsPost num"></span></td>
-					<td>30%<span class="num" style="display:none;">.3</span></td>
-					<td id="result"></td>
-				</tr>
-			</thead>
-			</table> 
-			<div class="row">
-			<div class="taxOnArfTable" style="height:15%;width:100%; margin-left:10px;">
-			<div style="float:left; width: 100%; margin-top: 10px; margin-bottom: 10px;">
-
-
-			</div>
-
-			</div>
-			</div>-->
+			
 
 			<div class="row taxLiabilityBox">
 			  <div class="col-sm-6"><p class="small-text">Each beneficiary\'s estimated Tax Liability is shown above, giving a total Tax Liability of </div>
@@ -602,10 +575,10 @@ function estate_planning_tool_contents() {
 		</div>
 
 		<div class="row">
-			<p style="margin:0 10px;"> There are various options that can be used to deal with your beneficiaries anticipated inheritance tax liability. The most suitable solution will depend on the factual information you have provided.</p>
+			<p class="small-text" style="margin:0 10px;"> There are various options that can be used to deal with your beneficiaries anticipated inheritance tax liability. The most suitable solution will depend on the factual information you have provided.</p>
 		</div>
 		<div id="options-container">
-			<div id="do-nothing-box" style="margin: 5px; width: 40%; height:100%; padding:1em">
+			<div id="do-nothing-box" style="width: 40%; height:100%; padding:1em">
 			<h3>1. Do nothing</h3>
 			<p>If you make no advance provision for the beneficiaries\' inheritance tax liability the beneficiaries may have to either.</p>
 			<ul class="small-text">
@@ -699,9 +672,9 @@ function estate_planning_tool_contents() {
 				
 			<div id="breaking-line "style="background-color:#F7F7F7; height: 5px; width: 100%;"></div>
 			
-			<p>Inheritance tax is due and payable on the valuation date of the inheritance, which will normally be very shortly after death. Unpaid tax attracts interest which is not tax deductible.</p>
+			<p class="small-text">Inheritance tax is due and payable on the valuation date of the inheritance, which will normally be very shortly after death. Unpaid tax attracts interest which is not tax deductible.</p>
 
-			<p>This illustration is based on the information you have given us and on our understanding of current legislation and Revenue practice. It is important that you provide all your financial details as information not included cannot be taken into account in providing advice.</p>
+			<p class="small-text">This illustration is based on the information you have given us and on our understanding of current legislation and Revenue practice. It is important that you provide all your financial details as information not included cannot be taken into account in providing advice.</p>
 			</div>
 		
 		</div>
