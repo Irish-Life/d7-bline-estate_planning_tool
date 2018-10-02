@@ -480,7 +480,7 @@ function estate_planning_tool_contents() {
 				<i class="small-text">
 
 				<li>Click the Print Report Button.</li>
-				<li>In the right column, press Change to change the document type you would like to save the report as </li>
+				<li>Press Change to change the document type you would like to save the report as </li>
 				<li>Under Print Destinations, choose Save as PDF</li>
 				<li>Click the blue Save Button</li>
 				<li>Save the PDF to your preferred folder</li>
@@ -557,7 +557,7 @@ function estate_planning_tool_contents() {
 						<td> <span class="reportTotalTaxLiability">taxLiability</span></td>
 			</table>
 			<div class="info-box">
-			<p class="small-text">*Group thresholds available from 11<sup>th</sup> October 2016</p>
+			<p class="small-text">*Group thresholds available from 11th October 2016</p>
 			<p class="small-text">**Where a child (aged 21 and over) inherits the clients ARF / AMRF this amount will be subject to income tax at a rate of 30%. This amount is included in the childs tax liability as noted above.</p>
 			</div>
 			
@@ -946,11 +946,11 @@ function estate_planning_tool_contents() {
 
 			<p class="sub-heading">Company Shares:</p>
 			<p class="small-text">The definition of “relevant business property” includes unquoted shares and securities of Irish incorporated companies subject to certain conditions.</p>
-			<p class="small-sub">The company</p>
+			<p class="sub-heading">The company</p>
 			<p class="small-text">The company’s business must not consist wholly or mainly of any of the following excluded activities -<i> dealing in currencies, securities, stocks or shares, land or buildings, or making or holding of investments.</i></p>
 
 
-			<p class="appendix-sub">The beneficiary</p>
+			<p class="sub-heading">The beneficiary</p>
 			<p class="small-text">	For the relief to apply the beneficiary must meet one of the following ownership/control tests:</p>
 			<ol class="appendix-ii-conditions-2">
 				<li>The shares themselves or together with other shares in the company held in the absolute beneficial ownership of the beneficiary, give the beneficiary control of 25% of the voting power over all matters relating to the company,</li>
