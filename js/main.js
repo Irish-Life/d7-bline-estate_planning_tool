@@ -1980,7 +1980,7 @@ updateReportTotals();
 $("#reportBeneficiariesTable tbody").html("");
 
 $(".saved-beneficiary").each(function() {
-		$( "#reportBeneficiariesTable tbody" ).append( "<tr style=\"height:40px\">" +
+		$( "#reportBeneficiariesTable tbody" ).append( "<tr style=\"height:30px\">" +
 		"<td>"+$(this).find(".name").html()+"</td>" +
 		//"<td>"+$(this).find(".age").html()+"</td>" +
 		"<td>"+$(this).find(".relation").html()+"</td>" +
