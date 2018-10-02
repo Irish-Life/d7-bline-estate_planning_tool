@@ -473,7 +473,7 @@ function estate_planning_tool_contents() {
 			</div>
 			</div>
 			</div>
-			<div class="row mt">
+		<div class="row mt">
 			<div id="report" class="col-lg-12 col-sm-8 col-xs-8 col-lg-offset-0 col-sm-offset-2 col-xs-offset-2">
 			<div class="printButton" onclick="window.print();">Click here to Print Report</div>
 			<div class="printButtonText">
@@ -486,7 +486,7 @@ function estate_planning_tool_contents() {
 				<li>Save the PDF to your preferred folder</li>
 				</i>
 			
-		</div>
+			</div>
 
 
 			<div class="pagebreak"> </div>
@@ -502,7 +502,7 @@ function estate_planning_tool_contents() {
 			<p class="report-title__desc">
 			This report shows the amount of tax that would have to be paid by the people who will inherit your estate when you die. It can help you plan your estate in the most tax efficient way possible. It is important that you have given us all your financial details for the report to be as accurate as possible.
 			</p>
-			</div>
+		</div>
 
 			</div>
 		</div>
@@ -567,7 +567,7 @@ function estate_planning_tool_contents() {
 			  <div class="col-sm-3 stat-box stat-box__liability" style="float:right;">€<span class="reportTotalTaxLiability"></span></div>
 			</div>
 
-		<div class="header-bg">
+		<div class="header-bg" style="margin-top:0px;">
 			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
 			<div class="header-text">
 				OPTIONS FOR MANAGING THE TAX <br> LIABILITY FOR YOUR ESTATE
@@ -580,15 +580,15 @@ function estate_planning_tool_contents() {
 		<div id="options-container">
 			<div id="do-nothing-box" style="width: 40%; height:100%; padding:1em">
 			<h3>1. Do nothing</h3>
-			<p>If you make no advance provision for the beneficiaries\' inheritance tax liability the beneficiaries may have to either.</p>
-			<ul class="small-text">
-				<li> Sell part of their inheritance, or </li>
-				<li> Borrow money to pay inheritance tax </li>
+			<p class="small-text">If you make no advance provision for the beneficiaries\' inheritance tax liability the beneficiaries may have to either.</p>
+			<ul>
+				<li class="small-text" style="list-style: none"> Sell part of their inheritance, or </li>
+				<li class="small-text" style="list-style: none"> Borrow money to pay inheritance tax </li>
 			</ul>
 			</div>
-			<div id="provide-for-taxes-box" style="margin: 5px; width: 40%; height:100%; padding:1em">
+			<div id="provide-for-taxes-box" style="width: 40%; height:100%; padding:1em">
 			<h3>2. Make advance provision</h3>
-			<p>The solution lies in you effecting a Section 72 Life Insurance Plan for a sum of €<span class="reportTotalTaxLiability"></span> for the benefit of your beneficiaries.</p>
+			<p class="small-text">The solution lies in you effecting a Section 72 Life Insurance Plan for a sum of €<span class="reportTotalTaxLiability"></span> for the benefit of your beneficiaries.</p>
 			</div>
 		</div>
 	<div class="pagebreak"></div>
@@ -682,7 +682,7 @@ function estate_planning_tool_contents() {
 
 
 			<div class="col-sm-4">
-							<img src="https://www.irishlife.ie/sites/retail/files/family-310.png" id="family-img">
+							<!-- <img src="https://www.irishlife.ie/sites/retail/files/family-310.png" id="family-img"> -->
 			</div>
 
 			<div class="pagebreak"> </div>
@@ -1009,6 +1009,7 @@ function estate_planning_tool_contents() {
 				<li> the beneficiary must spend not less than 50% of their normal working time farming the agricultural property for a period of not less than six years on a commercial basis with a view to realising a profit . Normal working time approximates to 40 hours per week.</li>
 			</ol>
 			<p class="small-text">Where the beneficiary leases the agricultural property the individual to whom the property is leased must satisfy either condition a. or b. above.  </p>
+			<br />
 			<p class="sub-heading"><b>The relief is withdrawn in certain circumstances:</b><p>
 			<p class="small-text">If within 6 years of the ‘valuation date’ the beneficiary ceases to qualify as a farmer as outlined and does not lease the land to a lessee who will farm the land for the remainder of the 6 year period.
 			</p>
