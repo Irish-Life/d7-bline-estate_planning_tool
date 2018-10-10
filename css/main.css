@@ -31,21 +31,12 @@ margin-bottom: 1.429em!important;
 #block-estate-planning-tool-estate-planning-tool {
 margin-top: -30px;}
 
-@media print {
-
-
-	
-	#the-print-report {
-	display: block;
-	 }
-	
-}
 
 /* ************ HIDE SECTIONS ******************* */
 #personal-info, #beneficiaries, #the-print-report, #estate-value, #showInputs,
 #name-error, #age-error, #age-2-error, #married-error, #married-section, #assets-error, #ben-error, #pdf-mobile, #businessModalContent, #farmModalContent, #familyModalContent {
 	display:none;
-} 
+}
 
 #beneficiaries-form-1 .panel-heading, #beneficiaries-form-2 .panel-heading, #beneficiaries-form-3 .panel-heading, #beneficiaries-form-4 .panel-heading {
 pointer-events:none;}
@@ -61,9 +52,9 @@ color:black!important;}
 .modal-dialog {
     background-color: white;
     padding: 10px;}
-	
+
 .modal-backdrop {
-background-color: #0000006e;}	
+background-color: #0000006e;}
 
 #spinner {
 	background-image: url('Spinner.gif');
@@ -139,14 +130,14 @@ table, th, td {
     color: #c0c0c0;
     font-size: 21px;
 }
- 
+
 .intro h2 {
 	color:white;
 	font-weight:400;
 	padding:45px;
 	font-size: 35px!important;
     line-height: 37px;
-} 
+}
 
 .intro-light {
 	font-weight:300;
@@ -184,7 +175,7 @@ table, th, td {
 	color: #dddfee;
 	font-size: 50px;
     margin-bottom: 15px;
-} 
+}
 
 /*
 .backButton {
@@ -236,7 +227,7 @@ table, th, td {
 	width: 300px;
 	align: center;
 	margin-left: 320px;
-	
+
 }
 
 
@@ -323,8 +314,9 @@ table, th, td {
 }
 
 .saved-beneficiary {
-	margin-bottom:40px;
+	margin-bottom:20px;
 	cursor:pointer;
+	page-break-inside: avoid;
 }
 
 .saved-body {
@@ -354,13 +346,6 @@ table, th, td {
 
 .edit {
 	margin-right:10px;
-}
-
-.beneficiaries {
-	font-size:18px;
-    line-height: 24px;
-    margin-top: 14px;
-    margin-left: 16px;
 }
 
 .panel-group .panel {
@@ -526,17 +511,133 @@ table, th, td {
 	border-radius: 0px!important;;
 }
 
+/* JB styles - 25/09/2018 */
 
+.cover-page {
+	padding: 3em;
+	background-color:  #A39B88 !important;
+	border: 2px solid #ffffff;
+	outline: 3px solid #A39B88;
+	position: relative;
+	top: -2em;
+}
+
+.report-title {
+	font-size: 26pt;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff !important;
+	letter-spacing: 3px;
+	font-weight: 800;
+}
+
+.report-title__desc {
+	font-size:16px;
+	text-align: center;
+	color: #ffffff !important;
+}
+
+.report-subtitle {
+	font-size:18pt;
+	line-height:150%;
+	text-align: center;
+	color: #ffffff !important;
+	text-transform: uppercase;
+}
+
+
+.reportNames {
+	color: #ffffff !important;
+}
+
+#today {
+	color: #ffffff !important;
+}
+
+.headings {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.stat-box {
+	border: 1px solid black;
+	width: 25%;
+	padding: 5px 0px 5px 25px;
+	margin-right: 25px;
+	font-size: 14px;
+}
+
+.tight-text {
+	line-height: 1.4;
+	margin: 0 0 8px 0 !important;
+}
+
+.report-assumptions > li {
+	font-size: 14px;
+	line-height: 1.4;
+	margin: 0 2em;
+}
+
+#supporting-information > p {
+	line-height: 1.2;
+}
+
+.report-table {
+	font-size: 14px;
+}
+
+.report-table__list {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.report-table__list li {
+	padding: 4px 0;
+}
+
+.report-table__list p {
+	margin-bottom: 5px;
+}
+
+.report-subtext {
+	font-size: 16px;
+}
+
+.small-text {
+	font-size: 14px;
+	line-height: 1.2;
+}
+
+
+#footer-wrapper {
+	background: transparent !important;
+}
+
+#appendix-iii p {
+	margin-bottom: 5px;
+}
+
+#appendix-iv p {
+	margin-bottom: 5px;
+}
+
+.info-box p {
+	margin-bottom: 5px;
+}
+
+
+/* End JB styles */
 .estate-value-liability-box {
 	text-align: center;
 	display: inline;
 }
+
 .list-type{
 list-style-type:none;
 }
 
 ul.li{
-	list-style-type:none; 
+	list-style-type:none;
 }
 p.supporting-information, .appendix-i, .appendix-ii, .appendix-iii, .appendix-iv {
 	font-weight: bold;
@@ -548,21 +649,31 @@ table, th, td {
 #no-will {
 	border: 1px solid grey;
 }
+.appendix-text {
+	line-height: 1.1;
+}
+
+.appendix-sub {
+	font-weight: 800;
+	font-style: italic;
+
+}
+
 .appendix-ii-conditions {
 	list-style-type: lower-alpha;
 	margin-left: 20px;
+	font-size: 14px;
 }
 .appendix-ii-conditions-2 {
 	list-style-type: lower-roman;
 	margin-left: 20px;
+	font-size: 14px;
 }
 p.sub-heading{
 	font-weight: bold;
-	color:#0E2D6D;
 }
 p.sub-heading-indent{
 	font-weight: bold;
-	color:#0E2D6D;
 	margin-left: 20px;
 }
 .reliefs-left {
@@ -572,14 +683,14 @@ p.sub-heading-indent{
 .reliefs-right {
 	float:left;
 }
-.pagebreak { 
+.pagebreak {
 	page-break-before: always;
 	}
-	
+
 #options-container {
     width: 100%;
-    height: 225px;
-    margin: auto;
+    height: 200px;
+    margin: 0 auto;
     padding: 10px;
 }
 
@@ -589,7 +700,7 @@ p.sub-heading-indent{
 	width: 50%;
     padding: 5px;
     text-align: center;
-	overflow: hidden;	
+	overflow: hidden;
 	height:300px;
 	background-color:#F7F7F7;
 }
@@ -623,14 +734,15 @@ div#right {
 }
 
 .assets-mobile {
-	
+
 	width:100%;
-	
+
 }
 .taxLiabilityBox {
 	background-color:#F7F7F7;
 	padding: 10px;
 }
+
 
 .assets-browser {
 	width: 100%;
@@ -641,7 +753,7 @@ div#right {
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
 	.assets-browser {
-	
+
 	display:none;
 
 }
@@ -652,14 +764,14 @@ and (max-device-width : 480px) {
 }
 
 }
- Smartphones (landscape) iPhone 4 Landscape----------- 
+ Smartphones (landscape) iPhone 4 Landscape-----------
 @media only screen
 and (min-width : 480px)
 and (max-device-width : 320px)  {
 	.assets-browser{
-		
+
 	display:none;
-	
+
 		}
 
 }
@@ -734,7 +846,7 @@ label {
 	text-decoration: none solid rgb(0, 0, 0);
 	line-height: 24px;
 }
-		
+
 #married-yes, #married-no {
 	display:none;
 }
@@ -781,12 +893,12 @@ input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
-.uneditable-input:focus {   
+.uneditable-input:focus {
   border: 2px solid #5261ac;
   box-shadow: none;
   outline: 0 none;
 }
- 
+
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
@@ -876,89 +988,89 @@ margin-bottom:0px;}
 
 .mt {
 	margin-top: 40px;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-      
+
 	  .progress-circ-1::after {
 		  left: 71px;
 	  }
-	  
+
 	  .progress-circ-2::after {
 		  left: 39px;
 	  }
-	  
+
 	  .progress-circ-1-active::after{
 		  top: 37px;
           left: 74px;
 		  width:12em;
 	  }
-	  
+
 	  .progress-circ-2-active::after {
 		  left:77px;
 		  width:12em;
 	  }
-	  
+
 	  .progress-circ-3::after {
 		  left: 54px;
 	  }
-	  
+
 	  .progress-circ-3-active::after {
 		  left:49px;
 	  }
-	  
+
 	  .progressBar p {
 	  font-size: 14px;}
-	  
+
 	  #clear-beneficiaries, #add-beneficiary {
 	  font-size: 16px;}
-	  
+
 	  .panel-title {
 	  font-size:14px;}
-	  
-	  
+
+
 }
 
 
 @media only screen and (min-device-width : 641px) and (max-device-width : 767px) {
-	   
+
 	   .progress-circ-1-active::after {
 		   left: 60px;
 	   }
-	   
+
 	   .progress-circ-2-active::after  {
 		   left: 61px;
 	   }
-	   
+
 	   .progress-circ-3::after {
 		   left: 18px;
 	   }
 }
 
 @media only screen and (min-device-width : 481px) and (max-device-width : 640px) {
-	
+
 	   .progress-circ-1-active::after { width: 7em;}
-	   
+
 	   .progress-circ-2-active::after { width: 6.9em;}
-	   
+
 	   .progress-circ-3::after {width:10em;}
-	   
+
 	   .intro h2 {
     color: white;
     font-weight: 400;
     padding: 45px;
     font-size: 24px!important;
     line-height: 37px;}
-	
+
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	
+
 label {
 	font-size:14px;
-}	
+}
 
 .intro h2 {
     color: white;
@@ -995,11 +1107,11 @@ label {
 #add-beneficiary {
 	width:100%;
 }
-  
+
 .progressBar p {
 	  font-size: 9px;
 }
-  
+
 .progress-circ-1::after {
     content: '';
     position: absolute;
@@ -1064,13 +1176,6 @@ label {
     height: .1em;
     background: #5261ac;
     z-index: -1;
-}
-
-.beneficiaries {
-	font-size:12px;
-	line-height: 24px;
-    margin-top: 14px;
-    margin-left: 16px;
 }
 
 .panel-title {
@@ -1141,153 +1246,165 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block!important;
     width: 100% !important;}
 
+.printButtonText {
+	margin-top: 2em;
+}
+
 @media print {
-  #printReport, .progressBar, .hideOnPrint {
+ 	#printReport, .progressBar, .hideOnPrint {
 	  display:none;
-  }
-}
-@media print
-    {
-        #header,.menu_background,.breadcrumb,#comments,#sidebar-first,.footer_bg,.node-links, #section-header, #messages, #page-title, #section-footer, .printButtonText, .printButton, #family-img { display: none; }
-        .node-view{ display: block;height:800px; }
+	  }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,  {
-    display: block !important;
-    width: 100% !important;}		
-.clearfix:before, .clearfix:after{  
-    display: block!important;
-}		
-#beneficiary-1 {
+	#the-print-report {
+		display: block;
+	}
 
-	margin-top: 10px;
-	margin-bottom:20px;
-	
-}
+	.beneficiaries {
+		color: #ffffff;
+	}
 
-#beneficiary-2 {
+    #header,.menu_background,.breadcrumb,#comments,#sidebar-first,.footer_bg,.node-links, #section-header, #messages, #page-title, #section-footer, .printButtonText, .printButton, #family-img { display: none; }
+    .node-view{ display: block;height:800px; }
 
-	margin-top: 10px;
-	margin-bottom:20px;
-}
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,  {
+		display: block !important;
+		width: 100% !important;}
+	.clearfix:before, .clearfix:after{
+		display: block!important;
+	}
+	#beneficiary-1 {
+		margin-top: 10px;
+		margin-bottom:20px;
+	}
+	#beneficiary-2 {
+		margin-top: 10px;
+		margin-bottom:20px;
+	}
 
-#beneficiary-3 {
+	#beneficiary-3 {
 
-	margin-top: 10px;
-	margin-bottom:20px;
-}
+		margin-top: 10px;
+		margin-bottom:20px;
+	}
 
-#beneficiary-4 {
+	#beneficiary-4 {
 
-	margin-top: 10px;
-	margin-bottom:20px;
-}
+		margin-top: 10px;
+		margin-bottom:20px;
+	}
 
-.saved-heading {
-	padding: 10px;
-    background-color: #A39B88 !important;
-    color: white;
-}
+	.saved-heading {
+		padding: 10px;
+		background-color: #A39B88 !important;
+		color: #ffffff !important;
+	}
 
-.saved-body {
-	padding: 24px;
-	background-color:#f8f8fb !important;
-}
-		
-	
-#options-container {
-    width: 100%;
-    height: 225px;
-    margin: auto;
-    padding: 10px;
-}
-		
-.header-wrapper {
-    display: block;
-    width: auto;
-}
-.header-bg{
-    background-color: #A39B88 !important;
-    position: relative;
-	height: 100px;
-    width: 100%;
-	margin-bottom: 10px;
-	margin-top: 10px;
-}
-.header-font {
-    font-size: 50px;
-    font-weight: bold;
-    text-align: left;
-    text-transform: uppercase;
-}
+	.saved-body {
+		padding: 24px;
+		background-color:#f8f8fb !important;
+	}
 
-.header-img {
-    max-height: 149px;
-    max-width: 149px;
-    display: block;
-	border: .5px solid black;
-	
-}
+	.stat-box__liability {
+		position: relative;
+		top: -50px;
+	}
 
-.header-text {
-    position: absolute;
-    font-size:25px;
-    right: 100px;
-    top: 50%;
-    transform: translateY(-50%);
-	color: #fff !important;
-}
-		
-    
-	
-	.pagebreak { 
+	#options-container {
+		width: 100%;
+		height: 200px;
+		margin: auto;
+		padding: 10px;
+	}
+
+	.header-wrapper {
+		display: block;
+		width: auto;
+	}
+	.header-bg{
+		background-color: #A39B88 !important;
+		position: relative;
+		height: 100px;
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.header-font {
+		font-size: 50px;
+		font-weight: bold;
+		text-align: left;
+		text-transform: uppercase;
+	}
+
+	.header-img {
+		max-height: 149px;
+		max-width: 149px;
+		display: block;
+		border: .5px solid black;
+
+	}
+
+	.header-text {
+		position: absolute;
+		font-size:25px;
+		right: 100px;
+		top: 50%;
+		transform: translateY(-50%);
+		color: #fff !important;
+	}
+
+	.sub-heading__agg {
+		padding-top: 3em;
+	}
+
+	.pagebreak {
 	page-break-before: always;
 	}
-	
-#options-container {
-    width: 100%;
-    height: 250px;
-    margin: auto;
-    padding: 10px;
+
+	#options-container {
+		width: 100%;
+		height: 200px;
+		margin: auto;
+		padding: 10px;
+	}
+
+	.section-content {
+		padding:10px;
+	}
+
+	#do-nothing-box {
+		float:left;
+		/*border: 1px solid black;*/
+		width: 50%;
+		padding: 5px;
+		text-align: center;
+		overflow: hidden;
+		height:100% !important;
+		background-color:#F7F7F7;
+	}
+
+	#provide-for-taxes-box {
+		/*border: 1px solid black;*/
+		width: 50%;
+		padding: 5px;
+		text-align: center;
+		overflow: hidden;
+		float: right;
+		height:100% !important;
+		background-color:#F7F7F7;
+	}
+
+	.taxLiabilityBox {
+		background-color:#F7F7F7;
+		padding: 10px;
+	}
+
+	#section-content {
+		-webkit-print-color-adjust: exact !important;
+	}
+
 }
-
-.section-content {
-	padding:10px;
-}
-
-#do-nothing-box {
-	float:left;
-	/*border: 1px solid black;*/
-	width: 50%;
-    padding: 5px;
-    text-align: center;
-	overflow: hidden;	
-	height:100% !important;
-	background-color:#F7F7F7;
-}
-
-#provide-for-taxes-box {
-	/*border: 1px solid black;*/
-	width: 50%;
-    padding: 5px;
-    text-align: center;
-	overflow: hidden;
-	float: right;
-	height:100% !important;
-	background-color:#F7F7F7;
-}
-
-.taxLiabilityBox {
-	background-color:#F7F7F7;
-	padding: 10px;
-}
-
-#section-content { 
-    -webkit-print-color-adjust: exact !important; 
-  }
-
-  }
 @page { size: auto;  margin: 0mm; }
-	
+
 /* REPORT HEADERS --------------*/
 
 
@@ -1315,7 +1432,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     max-width: 149px;
     display: block;
 	border: .5px solid black;
-	
+
 }
 
 .header-text {
@@ -1328,3 +1445,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	text-align:center;
 }
 
+
+.beneficiaries {
+	font-size:18px;
+    line-height: 24px;
+    margin-top: 14px;
+	margin-left: 16px;
+	color: #ffffff;
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
