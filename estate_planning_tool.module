@@ -485,7 +485,7 @@ function estate_planning_tool_contents() {
 				<li>Click the blue Save Button</li>
 				<li>Save the PDF to your preferred folder</li>
 				</i>
-			
+
 			</div>
 
 
@@ -560,7 +560,7 @@ function estate_planning_tool_contents() {
 			<p class="small-text">*Group thresholds available from 11th October 2016</p>
 			<p class="small-text">**Where a child (aged 21 and over) inherits the clients ARF / AMRF this amount will be subject to income tax at a rate of 30%. This amount is included in the childs tax liability as noted above.</p>
 			</div>
-			
+
 
 			<div class="row taxLiabilityBox">
 			  <div class="col-sm-6"><p class="small-text">Each beneficiary\'s estimated Tax Liability is shown above, giving a total Tax Liability of </div>
@@ -648,7 +648,7 @@ function estate_planning_tool_contents() {
 			</div>
 		</div>
 
-	
+
 			<div class="header-bg">
 			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
 			<div class="header-text">
@@ -658,7 +658,7 @@ function estate_planning_tool_contents() {
 			</div>
 		<div class="row">
 				<div class="col-sm-8">
-			
+
 					<ul id="assumptions" class="report-assumptions">
 					<li>We understand that your estate will be divided between your beneficiaries as shown</li>
 					<li>Where the children / beneficiaries have previously received gifts or inheritances from other sources since 5th December 1991 this will have reduced their available Group tax free threshold.</li>
@@ -669,14 +669,14 @@ function estate_planning_tool_contents() {
 					<li>Where the beneficiaries are not your children they will be subject to inheritance tax at a rate of 33% when they inherit the proceeds of the ARF / AMRF.</li>
 					<li>The calculator assumes that the ARF / AMRF amount keyed is a total of any Gross Amount being inherited by a child + any Net Amount being inherited by a person other than a child.</li>
 					</ul>
-				
+
 			<div id="breaking-line "style="background-color:#F7F7F7; height: 5px; width: 100%;"></div>
-			
+
 			<p class="small-text">Inheritance tax is due and payable on the valuation date of the inheritance, which will normally be very shortly after death. Unpaid tax attracts interest which is not tax deductible.</p>
 
 			<p class="small-text">This illustration is based on the information you have given us and on our understanding of current legislation and Revenue practice. It is important that you provide all your financial details as information not included cannot be taken into account in providing advice.</p>
 			</div>
-		
+
 		</div>
 
 
@@ -739,7 +739,7 @@ function estate_planning_tool_contents() {
 			<table class="report-table">
 			<th colspan="2">Tax Rate</th>
 			<tr>
-				<td>Group 1 €310,000</td>
+				<td>Group 1 €320,000</td>
 				<td>
 				<ul class="report-table__list">
 				  <p class="small-text">Where the person receiving the property is</p>
@@ -778,7 +778,7 @@ function estate_planning_tool_contents() {
 			<div class="pagebreak"> </div>
 
 			<p class="sub-heading sub-heading__agg">Aggregation</p>
-			<p class="small-text">Under the current aggregation rules all benefits from Group 1 will be added together with an overall threshold of <b>€310,000</b>. Benefits from Group 2 members (brother, sister, grandparent etc) will be added together for the purpose of the <b>€32,500</b> threshold, and benefits from Group 3 members (strangers) for the purpose of the €16,250 threshold. So in effect a beneficiary can potentially receive up to <b>€358,750</b> tax-free if the benefits come through different "groups".</p>
+			<p class="small-text">Under the current aggregation rules all benefits from Group 1 will be added together with an overall threshold of <b>€320,000</b>. Benefits from Group 2 members (brother, sister, grandparent etc) will be added together for the purpose of the <b>€32,500</b> threshold, and benefits from Group 3 members (strangers) for the purpose of the €16,250 threshold. So in effect a beneficiary can potentially receive up to <b>€358,750</b> tax-free if the benefits come through different "groups".</p>
 
 			<p class="sub-heading">Relief’s and Exemptions</p>
 			<p class="small-text"> Certain reliefs and exemptions apply to certain types of assets. These have been introduced over the years primarily to encourage private enterprise and to avoid the forced sale of a family farm, business or the family home in certain circumstances.</p>
@@ -788,7 +788,7 @@ function estate_planning_tool_contents() {
 
 
 			<p class="small-text">The main reliefs and exemptions are:</p>
-			
+
 			<div class="row report-subtext" style="padding: 5px;">
 			<div class="col-sm-4" class="headings" style="text-decoration:underline">Spouse / Civil Partner</div>
 			<div class="col-sm-8"><p class="small-text">Inheritances received by one spouse / civil partner from the other are totally exempt from CAT.</p></div>

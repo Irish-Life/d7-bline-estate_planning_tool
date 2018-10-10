@@ -67,7 +67,7 @@ var total=0
 function getGroupThreshold(whichGroup)
 {
 if (whichGroup === 'Group 1')
-return 310000
+return 320000
 else if (whichGroup === 'Group 2')
 return 32500
 else
