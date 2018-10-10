@@ -557,7 +557,7 @@ function estate_planning_tool_contents() {
 						<td> <span class="reportTotalTaxLiability">taxLiability</span></td>
 			</table>
 			<div class="info-box">
-			<p class="small-text">*Group thresholds available from 11th October 2016</p>
+			<p class="small-text">*Group thresholds available from 10th October 2018</p>
 			<p class="small-text">**Where a child (aged 21 and over) inherits the clients ARF / AMRF this amount will be subject to income tax at a rate of 30%. This amount is included in the childs tax liability as noted above.</p>
 			</div>
 
@@ -771,14 +771,14 @@ function estate_planning_tool_contents() {
 			</tr>
 
 			</table>
-			<p class="small-text">The threshold amounts are those applying with effect from midnight on 11th October 2016.
+			<p class="small-text">The threshold amounts are those applying with effect from midnight on 10th October 2018.
 			Source CAT Consolidation Act 2003 (as updated by subsequent Finance Acts).
 			</p>
 
 			<div class="pagebreak"> </div>
 
 			<p class="sub-heading sub-heading__agg">Aggregation</p>
-			<p class="small-text">Under the current aggregation rules all benefits from Group 1 will be added together with an overall threshold of <b>€320,000</b>. Benefits from Group 2 members (brother, sister, grandparent etc) will be added together for the purpose of the <b>€32,500</b> threshold, and benefits from Group 3 members (strangers) for the purpose of the €16,250 threshold. So in effect a beneficiary can potentially receive up to <b>€358,750</b> tax-free if the benefits come through different "groups".</p>
+			<p class="small-text">Under the current aggregation rules all benefits from Group 1 will be added together with an overall threshold of <b>€320,000</b>. Benefits from Group 2 members (brother, sister, grandparent etc) will be added together for the purpose of the <b>€32,500</b> threshold, and benefits from Group 3 members (strangers) for the purpose of the €16,250 threshold. So in effect a beneficiary can potentially receive up to <b>€368,750</b> tax-free if the benefits come through different "groups".</p>
 
 			<p class="sub-heading">Relief’s and Exemptions</p>
 			<p class="small-text"> Certain reliefs and exemptions apply to certain types of assets. These have been introduced over the years primarily to encourage private enterprise and to avoid the forced sale of a family farm, business or the family home in certain circumstances.</p>
