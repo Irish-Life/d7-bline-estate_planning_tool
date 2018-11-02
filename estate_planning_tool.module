@@ -27,15 +27,15 @@ function estate_planning_tool_block_view($delta = ' ') {
 	  //drupal_add_css(drupal_get_path('module', 'life_insurance_quote') . '/css/jquery-ui.min.css', array('group' => CSS_DEFAULT));
 	  //drupal_add_css('https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css', 'external', array('scope' => 'header'));
 	  //drupal_add_css('https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css', 'external', array('scope' => 'header'));
-	  drupal_add_css(' https://fonts.googleapis.com/css?family=Lato:300,400,700', 'external', array('scope' => 'header'));
+	  drupal_add_css(drupal_get_path('module', 'estate_planning_tool') . '/css/gfonts.css', array('scope' => 'header'));
 
 		drupal_add_css(drupal_get_path('module', 'estate_planning_tool') . '/css/bootstrap.css', array('group' => CSS_DEFAULT));
 	  drupal_add_css(drupal_get_path('module', 'estate_planning_tool') . '/css/main.css', array('group' => CSS_DEFAULT));
 	  drupal_add_css(drupal_get_path('module', 'estate_planning_tool') . 'https://use.fontawesome.com/releases/v5.2.0/css/all.css', array('group' => CSS_DEFAULT));
 
-	  drupal_add_js('https://code.jquery.com/jquery-1.12.4.js', 'external', array('scope' => 'footer'));
+	  drupal_add_js(drupal_get_path('module', 'estate_planning_tool') . '/js/jquery-1.12.4.js', array('scope' => 'footer'));
 	  //drupal_add_js(drupal_get_path('module', 'javascript') .'/js/jquery-ui.min.js', array('scope' => 'footer'));
-	  drupal_add_js('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js', 'external', array('scope' => 'footer'));
+	  drupal_add_js(drupal_get_path('module', 'estate_planning_tool') . '/js/bootstrap.min.js', array('scope' => 'footer'));
 	  //drupal_add_js('https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js', 'external', array('scope' => 'footer'));
 	  drupal_add_js(drupal_get_path('module', 'estate_planning_tool') . '/js/main.js', array('scope' => 'footer'));
 
@@ -495,7 +495,7 @@ function estate_planning_tool_contents() {
 
 			<h1 class="report-title">Estate Planning Report</h1>
 
-			<img src="https://www.irishlife.ie/sites/retail/files/estate-planner/images/estate-planner-cover-page.PNG" class="cover-page-img" style="width:100%; margin: 20px 0px 20px 0px;"/>
+			<!-- <img src="https://www.irishlife.ie/sites/retail/files/estate-planner/images/estate-planner-cover-page.PNG" class="cover-page-img" style="width:100%; margin: 20px 0px 20px 0px;"/> -->
 			<p class="report-subtitle">For <br /><span class="reportNames" ></span></p>
 			<p class="report-subtitle">On <br /><span id="today">12 June 2015</span></p>
 			<br>
@@ -511,7 +511,7 @@ function estate_planning_tool_contents() {
 
 	<!-- Page 2 -->
 		<div class="header-bg">
-			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
+			<!-- <img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading"> -->
 			<div class="header-text">
 				SUMMARY OF YOUR INFORMATION
 			</div>
@@ -536,7 +536,7 @@ function estate_planning_tool_contents() {
 		</div>
 
 		<div class="header-bg">
-			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
+			<!-- <img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading"> -->
 			<div class="header-text">
 				HOW YOUR ESTATE WILL BE SPLIT AND <br> WHAT TAX WILL HAVE TO BE PAID
 			</div>
@@ -568,7 +568,7 @@ function estate_planning_tool_contents() {
 			</div>
 
 		<div class="header-bg" style="margin-top:0px;">
-			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
+			<!-- <img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading"> -->
 			<div class="header-text">
 				OPTIONS FOR MANAGING THE TAX <br> LIABILITY FOR YOUR ESTATE
 			</div>
@@ -594,7 +594,7 @@ function estate_planning_tool_contents() {
 	<div class="pagebreak"></div>
 
 		<div class="header-bg">
-			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
+			<!-- <img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading"> -->
 			<div class="header-text">
 				WHAT MAKES UP THE VALUE<br> OF YOUR ESTATE
 			</div>
@@ -650,7 +650,7 @@ function estate_planning_tool_contents() {
 
 
 			<div class="header-bg">
-			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
+			<!-- <img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading"> -->
 			<div class="header-text">
 				WE HAVE BASED THE REPORT ON THE<br> FOLLOWING ASSUMPTIONS
 			</div>
@@ -687,7 +687,7 @@ function estate_planning_tool_contents() {
 
 			<div class="pagebreak"> </div>
 			<div class="header-bg" style="margin-bottom: 20px;">
-			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
+			<!-- <img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading"> -->
 			<div class="header-text">
 				BENEFICIARIES
 			</div>
@@ -699,7 +699,7 @@ function estate_planning_tool_contents() {
 			<div class="pagebreak"> </div>
 
 			<div class="header-bg">
-			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
+			<!-- <img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading"> -->
 			<div class="header-text">
 				SUPPORTING INFORMATION
 			</div>
@@ -771,7 +771,7 @@ function estate_planning_tool_contents() {
 			</tr>
 
 			</table>
-			<p class="small-text">The threshold amounts are those applying with effect from midnight on 10th October 2018.
+			<p class="small-text">The threshold amounts are those applying with effect from 10th October 2018.
 			Source CAT Consolidation Act 2003 (as updated by subsequent Finance Acts).
 			</p>
 
@@ -830,7 +830,7 @@ function estate_planning_tool_contents() {
 
 	<div class="pagebreak"></div>
 			<div class="header-bg">
-			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
+			<!-- <img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading"> -->
 			<div class="header-text">
 				APPENDIX I<br>SUCCESSION ACT
 			</div>
@@ -893,7 +893,7 @@ function estate_planning_tool_contents() {
 			<div class="pagebreak"> </div>
 
 			<div class="header-bg">
-			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
+			<!-- <img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading"> -->
 			<div class="header-text">
 				APPENDIX II<br>FAMILY HOME EXEMPTION
 			</div>
@@ -932,7 +932,7 @@ function estate_planning_tool_contents() {
 
 			<div class="pagebreak"> </div>
 			<div class="header-bg">
-			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
+			<!-- <img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading"> -->
 			<div class="header-text">
 				APPENDIX III<br>BUSINESS RELIEF
 			</div>
@@ -987,7 +987,7 @@ function estate_planning_tool_contents() {
 
 			<div class="pagebreak"></div>
 			<div class="header-bg">
-			<img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading">
+			<!-- <img src="https://www.irishlife.ie/sites/retail/files/calc-140-100.jpg" class="img-heading"> -->
 			<div class="header-text">
 				APPENDIX IV<br>AGRICULTURAL RELIEF
 			</div>
