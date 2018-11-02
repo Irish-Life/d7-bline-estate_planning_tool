@@ -1,7 +1,11 @@
 describe('Testing web pages', function () {
+  beforeEach(function () {
+    cy.visit('http://localhost/estateplanner/pathfinder')
+
+  })
+
   it('Tests a dependent who is over 21', () => {
-    cy.visit('http://localhost/estateplanner/')
-      .get('#logo').should('be', 'visible');
+    cy.get('#logo').should('be', 'visible');
 
     cy.get('#get-started').click();
     cy.get('#name').type("Jonni Bissell");
@@ -23,8 +27,7 @@ describe('Testing web pages', function () {
   })
 
   it('Tests a dependent who is exactly 21', () => {
-    cy.visit('http://localhost/estateplanner/')
-      .get('#logo').should('be', 'visible');
+    cy.get('#logo').should('be', 'visible');
 
     cy.get('#get-started').click();
     cy.get('#name').type("Jonni Bissell");
@@ -46,8 +49,7 @@ describe('Testing web pages', function () {
   })
 
   it('Tests a dependent who is under 21', () => {
-    cy.visit('http://localhost/estateplanner/')
-      .get('#logo').should('be', 'visible');
+    cy.get('#logo').should('be', 'visible');
 
     cy.get('#get-started').click();
     cy.get('#name').type("Jonni Bissell");
