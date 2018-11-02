@@ -144,7 +144,7 @@ function calculateTaxableInheritance(
 
 
    taxableInheritance = Math.max(taxableInheritance,0);
-   if (age > 21 && whatThresholdApplies === "Group 1")
+   if (age >= 21 && whatThresholdApplies === "Group 1")
    {
 		taxableInheritance = Number(taxableInheritance) + Number(postRetireInheritedValue);
    }
