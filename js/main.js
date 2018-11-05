@@ -148,8 +148,6 @@ function calculateTaxableInheritance(
    {
 		taxableInheritance = Number(taxableInheritance) + Number(postRetireInheritedValue);
    }
-
-   ////console.log(Math.round(taxableInheritance));
    return Math.round(taxableInheritance);
 }
 
@@ -184,8 +182,6 @@ function calculateTaxLiability(age,taxableInheritance,postRetireInheritedValue,i
 		tax = Number(taxableInheritance) * 0.33;
 	}
 
-	////console.log(tax > 0? Math.round(tax):0);
-
     return tax > 0? Math.round(tax):0;
 }
 
@@ -196,14 +192,12 @@ if (otherProperty == 0 && q1 == 'yes' && q2 == 'yes' && q3 == 'yes' && q4 == 'ye
 {
   familyRelief = true;
    return "Yes";
-   ////console.log('family home relief is yes');
 }
 else
 {
 
 	familyRelief = false;
     return "No";
-	////console.log('family home relief is no');
 }
 }
 
@@ -872,9 +866,6 @@ function saveBeneficiary(number, name, age, reliefs, currentAssets, threshold, a
 						<div class="hidden taxLiabilityCalc">'+taxLib+'</div><div class="col-lg-6 col-sm-6 col-xs-6 ">€'+numberWithCommas(taxLib)+'</div>\
 				    </div></div></div></div>';
 
-					////console.log($('.inherPostRetirePen').html())
-
-
 
 		//insert the table onto the screen just after the heading
 
@@ -981,7 +972,6 @@ function amountLeftRealTime(assetNameDivId,tableDivId,labelId) {
 function checkAmountEntered(estateAmountDivId,tableRowClassId,beneficiaryFormId,assetName) {
   var assetAmtLeft=Number($(estateAmountDivId).val());
 	//add up the existing ones
-	//console.log('The tableRowClassID value is ='+$(tableRowClassId).html());
 	$(".saved-beneficiary").each(function() {
 		assetAmtLeft = assetAmtLeft - Number($(this).find(tableRowClassId).html());
 	});
@@ -1555,7 +1545,6 @@ $('#pdf-mobile').click(function () {
 		$('.saved-beneficiary').fadeOut();
 
 			setupAccordion(form);
-			console.log("set up accordion");
 			hideBeneficiaryInputs();
 			updateReportTotals();
 
@@ -1598,7 +1587,6 @@ $('#pdf-mobile').click(function () {
 	//edit a beneficiary
 	$('body').on('click','.edit-user',function() {
 
-		//console.log('editing');
 		$('.saved-beneficiary').fadeOut()
 		hideBeneficiaryInputs();
 		addingNewUser=false;
@@ -1618,7 +1606,6 @@ $('#pdf-mobile').click(function () {
 
 		//populate all the values
 		$('#beneficiaries-form-'+form+' #ben-name').val($('#beneficiary-'+form+' .name').text());
-		console.log($('#beneficiary-'+form+' .name').text());
 		$('#beneficiaries-form-'+form+' #ben-age').val($('#beneficiary-'+form+' .age').text());
 		$('#beneficiaries-form-'+form+' #ben-rel option').filter(function() {
 			return ($(this).text() == $('#beneficiary-'+form+' .relation').text()); //To select Blue
@@ -1641,24 +1628,17 @@ $('#pdf-mobile').click(function () {
 		}
 
 		$('#beneficiaries-form-'+form+' #ben-property').val($('#beneficiary-'+form+' .curPropAssets').html());
-		//console.log($('#beneficiary-'+form+' .curPropAssets').html());
 		$('#beneficiaries-form-'+form+' #ben-business').val($('#beneficiary-'+form+' .curBusAssets').html());
-		//console.log($('#beneficiary-'+form+' .curBusAssets').html());
 		$('#beneficiaries-form-'+form+' ben-farm').val($('#beneficiary-'+form+' .curFarmAssets').html());
-		//console.log($('#beneficiary-'+form+' .curFarmAssets').html());
 		$('#beneficiaries-form-'+form+' #prevGiftsOne').val($('#beneficiary-'+form+' .gifts1').html());
-		//console.log($('#beneficiary-'+form+' .gifts1').html());
 		$('#beneficiaries-form-'+form+' #prevGiftsTwo').val($('#beneficiary-'+form+' .gifts2').html());
-		//console.log($('#beneficiary-'+form+' .gifts2').html());
 		$('#beneficiaries-form-'+form+' #prevGiftsThree').val($('#beneficiary-'+form+' .gifts3').html());
-		//console.log($('#beneficiary-'+form+' .gifts3').html());
 		$('#beneficiaries-form-'+form+' #ben-residence').val($('#beneficiary-'+form+' .inherHome').html());
 		$('#beneficiaries-form-'+form+' #ben-other-property').val($('#beneficiary-'+form+' .inherOtherProperty').html());
 		$('#beneficiaries-form-'+form+' #ben-total-savings').val($('#beneficiary-'+form+' .inherInvestments').html());
 		$('#beneficiaries-form-'+form+' #ben-personal-property').val($('#beneficiary-'+form+' .inherPersonalProperty').html());
 		$('#beneficiaries-form-'+form+' #ben-personal-life').val($('#beneficiary-'+form+' .inherLifeInsurance').html());
 		$('#beneficiaries-form-'+form+' #ben-pension-benefits').val($('#beneficiary-'+form+' .inherPreRetirePen').html());
-		////console.log($('#beneficiary-'+form+' .inherPostRetirePen').html());
 		$('#beneficiaries-form-'+form+' #ben-pensions-amrf').val($('#beneficiary-'+form+' .inherPostRetirePen').html());
 		$('#beneficiaries-form-'+form+' #ben-bus-total').val($('#beneficiary-'+form+' .inherBusinessAssets').html());
 		$('#beneficiaries-form-'+form+' #ben-farm-total').val($('#beneficiary-'+form+' .inherFarmAssets').html());
@@ -1709,7 +1689,6 @@ $('#pdf-mobile').click(function () {
 	$("body").on('click','.delete-user',function() {
 		var id = $(this).attr('id').split('-')[2];
 		var newTaxLib = Number($('#totalTaxLiability').html().replace(/\,/g,'')) - numberWithCommas($('#beneficiary-'+id+' .taxLiabilityCalc').html());
-		////console.log(newTaxLib);
 		$('#totalTaxLiability').html(newTaxLib);
 		$('#beneficiary-'+id+'').remove();
 		$('#beneficiaries-form-'+id+'').remove();
@@ -1741,7 +1720,6 @@ $('#pdf-mobile').click(function () {
 
 		updateFarmRelief();
 		saveBeneficiary(benNumber,benName,benAge,reliefs,currentAssets,willFullThresh,totalAssetsInherited,taxVal,taxLiability,newOrEdit);
-		//console.log(saveBeneficiary(benNumber,benName,benAge,reliefs,currentAssets,willFullThresh,totalAssetsInherited,taxVal,taxLiability,newOrEdit));
         $('#beneficiaries-form-'+benNumber+' .assetsBeingInherited').attr('disabled', 'disabled');
 		$('#beneficiaries-form-'+benNumber+' .assetsBeingInherited').css('background-color', '#8080803b!important');
 
@@ -1818,7 +1796,6 @@ function calcBeneficiaryTax() {
  function clearBeneficiaries() {
 	 $('.saved-beneficiary, .beneficiaries-form').remove();
 	 	$("#showPrint").attr("disabled", true);
-		////console.log(newTaxLib);
 		totalTaxLiability = 0;
 		form ='';
 		$('#totalTaxLiability').html(totalTaxLiability);
@@ -1880,7 +1857,6 @@ $('#showPrint').show();
 			$(document).attr("title", "Estate Planning Pathfinder");
 			showPrint();
 			setupAccordion(form);
-			console.log(setupAccordion(form));
 		}
 	});
 
@@ -2003,9 +1979,7 @@ $(".saved-beneficiary").each(function() {
 		Number($(this).find(".inherFarmAssets").html());
 
 		totalTaxLiability+= Number($(this).find(".taxLiabilityCalc").html());
-		console.log(totalTaxLiability);
 		var taxable = Number($(this).find("#taxableInheritance").html());//.replace(/,/g,''));
-		////console.log(taxable);
 		totalTaxable += taxable;
 
 		if (Number($('#family-home').val()) > 0 ||

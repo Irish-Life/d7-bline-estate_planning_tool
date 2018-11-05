@@ -112,12 +112,4 @@ describe('Local Testing - Estate Planning Pathfinder', function () {
     cy.get('.cover-page').should('be.visible');
   })
 
-  /*
-    Next steps to include:
-    - testing the report is accurate
-    - testing more use cases with different assets
-    - testing multiple beneficiaries
-    - testing weird inputs
-    - testing incorrect inputs
-  */
 })
